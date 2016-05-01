@@ -1,0 +1,21 @@
+[
+  {
+    "modid": "CoderDojo Eeklo",
+    "name": "CoderDojo Eeklo Mod",
+    "description": "build for Coder Dojo Belgium - Eeklo",
+    "version": "${mod_version}",
+    "mcversion": "${minecraft_version}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "SD"
+    ],
+    "credits": "SD",
+    "logoFile": "assets/cdeeklo/textures/items/ItemMazeBuilderIcon.png",
+    "screenshots": [
+    ],
+    "parent":"",
+    "dependencies": [
+    ]
+  }
+]
