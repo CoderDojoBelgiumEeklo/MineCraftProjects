@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+@media (min-width: 360px) {
+  body {
+    padding-top: 60px;
+   /* padding-bottom: 42px;*/
+  }
+
+}
+.sidebar{
+  height: calc(100vh - 90px);
+}
+
+div.wrapper{
+  float:left; /* important */
+  position:relative; /* important(so we can absolutely position the description div */
+}
+div.description{
+  position:absolute; /* absolute position (so we can position it where we want)*/
+  bottom:0px; /* position will be on bottom */
+  left:0px;
+  width:100%;
+  /* styling bellow */
+  background-color:black;
+  color:white;
+  opacity:0.6; /* transparency */
+  filter:alpha(opacity=60); /* IE transparency */
+}
+p.description_content{
+  padding:10px;
+  margin:0px;
+  font-size: 30px;
+}
+
+.MainContent > p
+{
+  width: 800px ;
+  height: auto;
+}
+
+.MainContent > p >  img
+{
+  max-width: 400px;
+  max-height: 270px;
+
+}
+
+.MainContent > div >  img
+{
+  max-width: 400px;
+  max-height: 270px;
+
+}
+
+.MainContent >H1
+{
+  text-align: center;
+  vertical-align: middle;
+  color: aqua;
+}
+
+.MainContent >H2
+{
+  text-align: center;
+  vertical-align: middle;
+  color: blue;
+}
+
+.MainContent >H3
+{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.MainContent >H4
+{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.MDView
+{
+  max-width: 400px;
+  max-height: 270px;
+
+}

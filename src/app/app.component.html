@@ -1,0 +1,17 @@
+
+  <pm-mainmenu style="z-index: 99999!important;"></pm-mainmenu>
+
+    <!--There is an issue withe the component. this requires a hardcoded style of 100% because we hae a  main menu we have to remove its height from the total height.-->
+    <ng-sidebar-container  style="height: calc(100vh - 60px); z-index: 99;">
+      <ng-sidebar [(opened)]='_opened' [mode]='_mode' [position]="_position" >
+        <pm-menu></pm-menu>
+      </ng-sidebar>
+      <div ng-sidebar-content>
+
+        <!--<pm-carousel [ImageLinks]="[{url:'https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock.png?raw=true'},{url:'https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock2.png?raw=true'}]"></pm-carousel>-->
+        <!--<pm-carousel [ImageLinks]="[{url:'https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock.png?raw=true'},{url:'https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock2.png?raw=true'}]"></pm-carousel>-->
+        <section class="MainContent">
+          <pm-a-component></pm-a-component>
+        </section>
+      </div>
+    </ng-sidebar-container>

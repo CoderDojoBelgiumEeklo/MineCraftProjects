@@ -1,0 +1,32 @@
+
+
+  <nav class="navbar  navbar-dark navbar-expand-lg bg-dark fixed-top" >
+    <a class="navbar-brand" href="https://www.coderdojobelgium.be/nl"  >
+      <img src="assets/brand.png" style="width: 16px;height:16px;;" >
+
+    </a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> {{translationHelper.currentLanguage.value}}  <span class="caret"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div *ngFor="let lang of translationHelper.Languages">
+                <a class="dropdown-item" (click)="SwitchLang(lang.id)">{{lang.value}}</a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <!--Create all the menu items from array menuItems[]-->
+          <li><a href="#/Main" class="fa fa-home "></a></li>
+          <li><a href="#/About" class="fa fa-info-circle "></a></li>
+        </ul>
+      </div>
+
+
+
+
+  </nav>
+
