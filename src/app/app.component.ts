@@ -5,7 +5,7 @@ import {Component} from '@angular/core';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  protected _opened: boolean = true;
-  protected _mode: string = 'push';
-  protected _position: string = 'left';
+  public _opened: boolean = true;
+  public _mode: string = 'push';
+  public _position: string = 'left';
 }
