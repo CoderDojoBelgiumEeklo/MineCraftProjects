@@ -1,15 +1,10 @@
 #CoderDojo
 
 
-![coderdojo](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/brand.png?raw=true)
+![coderdojo](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/brand.png?raw=true)
 
 
-[coderdojo](https://www.coderdojobelgium.be/nl)
+[coderdojo](https://www.coderdojobelgium.be/en)
 
 
-%cstart%
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock.png?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock2.png?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock.png?raw=true, 
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock2.png?raw=true 
-%cend%
+Welcome to the start page of this site. On the right you can see the different sections you can consult.

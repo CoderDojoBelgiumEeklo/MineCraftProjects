@@ -29,7 +29,6 @@ export  class SubMenuComponent {
   }
 
  LinkClicked() {
-   alert(`Link clicked ${this.submenu.link}`);
-   this.pageSelection.setActivePage( this.submenu.link + '.' + this.translationHelper.currentLanguage.abbreviation + '.md');
+   this.pageSelection.setActivePage( this.submenu.link);
  }
 }

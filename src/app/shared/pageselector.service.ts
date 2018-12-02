@@ -10,11 +10,11 @@ export class PageSelectorService {
   @Output() change: EventEmitter<boolean> = new EventEmitter();
 
   constructor(private translationHelper: TranslationHelperService) {
-    this._activePage = 'welcome.' + this.translationHelper.currentLanguage.abbreviation + '.md';
+    this._activePage = '/welcome';
   }
 
   getActivePage() {
-    return this._activePage;
+    return this._activePage + '.'  + this.translationHelper.currentLanguage.abbreviation + '.md';
   }
 
   setActivePage(newlink: string) {

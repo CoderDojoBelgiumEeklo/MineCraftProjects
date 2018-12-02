@@ -1,4 +1,4 @@
-import {Injectable} from '@angular/core';
+import {EventEmitter, Injectable, Output} from '@angular/core';
 import {ILanguage} from './language';
 
 @Injectable({
@@ -10,6 +10,8 @@ export class TranslationHelperService {
 
   currentLanguage: ILanguage;
 
+  @Output() change: EventEmitter<boolean> = new EventEmitter();
+
   constructor () {
     this.Languages = [{id: 0, value: 'Nederlands', abbreviation: 'nl'},
                       {id: 1, value: 'English', abbreviation: 'en'},
@@ -20,6 +22,7 @@ export class TranslationHelperService {
 
   ChangeLanguage(newLanguage: number) {
     this.currentLanguage = this.Languages[newLanguage];
+    this.change.emit(true);
   }
 
 }

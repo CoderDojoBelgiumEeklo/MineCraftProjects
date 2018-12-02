@@ -14,6 +14,7 @@ import {CommonModule} from '@angular/common';
 import {PageSelectorService} from '../shared/pageselector.service';
 import {CarouselItem} from './carousel/carouselItem';
 import {DomSanitizer} from '@angular/platform-browser';
+import {TranslationHelperService} from '../shared/translation/translationhelper.service';
 
 
 @Component({
@@ -29,7 +30,8 @@ export class OTFAComponent implements  AfterViewInit{
               private _injector: Injector,
               private _m: NgModuleRef<any>,
               private markdownService: MarkdownService,
-              private pageSelector: PageSelectorService
+              private pageSelectorService: PageSelectorService,
+              private translationhelperService: TranslationHelperService
               ) {
 
   }
@@ -40,8 +42,10 @@ export class OTFAComponent implements  AfterViewInit{
 
   ngAfterViewInit() {
     this.RefreshFile();
-    this.pageSelector.change.subscribe(
+    this.pageSelectorService.change.subscribe(
       refresh => { this.RefreshFile(); });
+    this.translationhelperService.change.subscribe(
+      refresh => {this.RefreshFile(); });
   }
 
   OnTheflyComponent() {
@@ -86,7 +90,8 @@ export class OTFAComponent implements  AfterViewInit{
       data =>  {
               this.template = this.markdownService.getMarkdown(data);
               this.OnTheflyComponent();
-            }
+            },
+      error => { this.markdownService.handleError(error); }
     );
   }
 

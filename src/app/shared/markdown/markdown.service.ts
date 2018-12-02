@@ -14,7 +14,7 @@ declare var lightboxExtension: any;
   providedIn: 'root'
 })
 export class MarkdownService {
-  private mdBaseUrl: string = 'api/';
+  private mdBaseUrl: string = 'api';
   private html: string;
   private converter: showdown.Converter;
 
@@ -41,7 +41,7 @@ export class MarkdownService {
       errorMessage = `Server returned code: ${err.status}, error message is: ${err.message}`;
     }
     console.log(errorMessage);
-    return throwError('ErrorMessage');
+    // return throwError('ErrorMessage');
   }
 
 }
