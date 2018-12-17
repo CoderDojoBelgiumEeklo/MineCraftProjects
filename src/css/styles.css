@@ -6,9 +6,7 @@
   }
 
 }
-.sidebar{
-  height: calc(100vh - 90px);
-}
+
 
 div.wrapper{
   float:left; /* important */
@@ -77,9 +75,29 @@ p.description_content{
   vertical-align: middle;
 }
 
+#CenterWrapper
+{
+  display: flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
 .MDView
 {
-  max-width: 400px;
-  max-height: 270px;
+  min-width: calc(100vh - 200px);
+  min-height: calc(100vh - 400px);
+  max-width: calc(100vh - 200px);
+  max-height: calc(100vh - 400px);
+  overflow: hidden;
+}
+
+.Offset20pxLeft
+{
+
+  Margin: 0px 15px;
 
 }

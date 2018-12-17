@@ -1,11 +1,12 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpErrorResponse} from '@angular/common/http';
 import {Observable, throwError} from 'rxjs';
-import {IMenu} from '../menu/menu';
+import {IMenu} from '../sidemenu/menu';
 import {catchError, tap} from 'rxjs/operators';
 import * as showdown from 'showdown';
 import * as lightboxExtension from 'src/assets/showdown_lightBoxExtension.js';
 import {PageSelectorService} from '../pageselector.service';
+import {YtplayermarkdownService} from './ytplayermarkdown.service';
 
 
 declare var lightboxExtension: any;
@@ -18,9 +19,10 @@ export class MarkdownService {
   private html: string;
   private converter: showdown.Converter;
 
-  constructor(private http: HttpClient, private pageSelector: PageSelectorService) {
+  constructor(private http: HttpClient, private pageSelector: PageSelectorService, private ytplayerMarkdown: YtplayermarkdownService) {
     showdown.extension('LightBox', lightboxExtension);
-    this.converter = new showdown.Converter({extensions: ['LightBox']});
+    showdown.extension('ytplayer', ytplayerMarkdown.getMarkdownExtension());
+    this.converter = new showdown.Converter({extensions: ['LightBox', 'ytplayer']});
   }
 
   getMarkdownFile() {

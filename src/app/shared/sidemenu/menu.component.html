@@ -1,0 +1,19 @@
+<div *ngFor="let menugroup of menu" id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      {{menugroup.translation[translationHelper.currentLanguage.id].Value}}
+    </div>
+
+    <div class="card-body p-0" >
+      <div *ngFor="let sm of menugroup.submenu">
+        <div *ngIf="sm">
+          <pm-submenu [submenu]="sm"></pm-submenu>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+

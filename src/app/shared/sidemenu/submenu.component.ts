@@ -6,8 +6,8 @@ import {PageSelectorService} from '../pageselector.service';
 @Component({
   selector: 'pm-submenu',
   template: '' +
-    '<ul class="">' +
-    ' <li class="">' +
+    '<ul class="nav nav-pills Offset20pxLeft">' +
+    ' <li class="nav-item">' +
     '  <div *ngIf="submenu.link; else elseBlock">\n' +
     '   <a class="nav-link" (click)="LinkClicked();">{{submenu.translation[translationHelper.currentLanguage.id].Value}}</a>\n' +
     '  </div>\n' +

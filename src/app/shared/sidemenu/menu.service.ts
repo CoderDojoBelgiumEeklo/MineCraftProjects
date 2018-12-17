@@ -16,7 +16,7 @@ export class MenuService {
 
   getMenuStructure(): Observable<IMenu[]> {
     return  this.http.get<IMenu[]>(this.menuUrl).pipe(
-      tap(data => console.log('All: ' + JSON.stringify(data))),
+      tap(data => console.log('loaded')),
       catchError(this.handleError));
   }
 

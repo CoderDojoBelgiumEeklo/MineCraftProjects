@@ -8,4 +8,6 @@ export class AppComponent {
   public _opened: boolean = true;
   public _mode: string = 'push';
   public _position: string = 'left';
+
 }
+

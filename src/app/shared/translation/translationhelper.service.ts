@@ -16,7 +16,7 @@ export class TranslationHelperService {
     this.Languages = [{id: 0, value: 'Nederlands', abbreviation: 'nl'},
                       {id: 1, value: 'English', abbreviation: 'en'},
                       {id: 2, value: 'français', abbreviation: 'fr'}];
-    this.currentLanguage = this.Languages[1];
+    this.currentLanguage = this.Languages[0];
   }
 
 

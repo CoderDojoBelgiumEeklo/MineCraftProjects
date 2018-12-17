@@ -4,15 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import {HttpClientModule} from '@angular/common/http';
-import {MenuComponent} from './shared/menu/menu.component';
+import {MenuComponent} from './shared/sidemenu/menu.component';
 import {FormsModule} from '@angular/forms';
 import {MainMenuComponent} from './shared/mainmenu/mainmenu.component';
-import {SubMenuComponent} from './shared/menu/submenu.component';
+import {SubMenuComponent} from './shared/sidemenu/submenu.component';
 import {SidebarModule} from 'ng-sidebar';
 import {SanitizeHtmlPipe} from './shared/sanitize-html.pipe';
-import {OTFModule} from './Dynamic/otf.module';
-
-
+import {OTFModule} from './dynamic/otf.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +18,7 @@ import {OTFModule} from './Dynamic/otf.module';
     MenuComponent,
     MainMenuComponent,
     SubMenuComponent,
-    SanitizeHtmlPipe
+    SanitizeHtmlPipe,
   ],
   imports: [
     BrowserModule,
