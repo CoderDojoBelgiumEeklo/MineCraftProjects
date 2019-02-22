@@ -29,51 +29,6 @@ p.description_content{
   font-size: 30px;
 }
 
-.MainContent > p
-{
-  width: 800px ;
-  height: auto;
-}
-
-.MainContent > p >  img
-{
-  max-width: 400px;
-  max-height: 270px;
-
-}
-
-.MainContent > div >  img
-{
-  max-width: 400px;
-  max-height: 270px;
-
-}
-
-.MainContent >H1
-{
-  text-align: center;
-  vertical-align: middle;
-  color: aqua;
-}
-
-.MainContent >H2
-{
-  text-align: center;
-  vertical-align: middle;
-  color: blue;
-}
-
-.MainContent >H3
-{
-  text-align: center;
-  vertical-align: middle;
-}
-
-.MainContent >H4
-{
-  text-align: center;
-  vertical-align: middle;
-}
 
 #CenterWrapper
 {
@@ -93,6 +48,13 @@ p.description_content{
   max-width: calc(100vh - 200px);
   max-height: calc(100vh - 400px);
   overflow: hidden;
+}
+
+img{
+  max-width: calc(100vh - 200px);
+  max-height: calc(100vh - 400px);
+  overflow: hidden;
+
 }
 
 .Offset20pxLeft

@@ -1,15 +1,13 @@
 #CoderDojo
 
 
-![coderdojo](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/brand.png?raw=true)
+%istart%https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/brand.png?raw=true%iend%
 
 
-[coderdojo](https://www.coderdojobelgium.be/nl)
+#[CoderDojo Belgium](https://www.coderdojobelgium.be/nl)
 
 
 Welkom bij de startpagina van deze site. Aan de rechterkant ziet u de verschillende secties die u kunt raadplegen.
+Het doel van deze site is om verschillende onderwerpen binnen minecraft te verzamelen voor het gebruik van Dojo's.
 
 
-%vstart%
-https://www.youtube.com/watch?v=lPVpg4_POww
-%vend%

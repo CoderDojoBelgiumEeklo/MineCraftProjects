@@ -30,7 +30,7 @@ Een toorts verbonden aan een gevoede blok zal geen redstone signaal uitgeven.
 
 probeer een en poort te maken met zoveel mogelijk ingangen zonder gebruik te maken van een redstone versterker.
 
-Hint het wijn er meer dan 20
+Hint het zijn er meer dan 20
 
 
-[Image]
+

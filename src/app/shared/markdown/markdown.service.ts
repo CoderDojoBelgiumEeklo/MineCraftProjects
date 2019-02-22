@@ -1,15 +1,12 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpErrorResponse} from '@angular/common/http';
-import {Observable, throwError} from 'rxjs';
-import {IMenu} from '../sidemenu/menu';
-import {catchError, tap} from 'rxjs/operators';
 import * as showdown from 'showdown';
-import * as lightboxExtension from 'src/assets/showdown_lightBoxExtension.js';
 import {PageSelectorService} from '../pageselector.service';
 import {YtplayermarkdownService} from './ytplayermarkdown.service';
+import {CarouselmarkdownService} from './carouselmarkdown.service';
+import {ImagemarkdownService} from './imagemarkdown.service';
 
 
-declare var lightboxExtension: any;
 
 @Injectable({
   providedIn: 'root'
@@ -19,10 +16,12 @@ export class MarkdownService {
   private html: string;
   private converter: showdown.Converter;
 
-  constructor(private http: HttpClient, private pageSelector: PageSelectorService, private ytplayerMarkdown: YtplayermarkdownService) {
-    showdown.extension('LightBox', lightboxExtension);
+  constructor(private http: HttpClient, private pageSelector: PageSelectorService, private ytplayerMarkdown: YtplayermarkdownService,
+              private carouselMarkdown: CarouselmarkdownService, private imageMarkdown: ImagemarkdownService) {
+    showdown.extension('carousel', carouselMarkdown.getMarkdownExtension());
     showdown.extension('ytplayer', ytplayerMarkdown.getMarkdownExtension());
-    this.converter = new showdown.Converter({extensions: ['LightBox', 'ytplayer']});
+    showdown.extension('image', imageMarkdown.getMarkdownExtension());
+    this.converter = new showdown.Converter({extensions: ['carousel', 'ytplayer', 'image']});
   }
 
   getMarkdownFile() {

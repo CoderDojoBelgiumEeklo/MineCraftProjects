@@ -54,6 +54,7 @@ export class OTFAComponent implements  AfterViewInit{
 
 
     class Guid {
+      private readonly value: string = this.empty;
       public static newGuid(): Guid {
         return new Guid('xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
           const r = Math.random() * 16 | 0;
@@ -71,10 +72,10 @@ export class OTFAComponent implements  AfterViewInit{
         const validRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
         return validRegex.test(str);
       }
-      private value: string = this.empty;
+
       constructor(value?: string) {
         if (value) {
-          if(Guid.isValid(value)) {
+          if (Guid.isValid(value)) {
             this.value = value;
           }
         }
@@ -111,7 +112,8 @@ export class OTFAComponent implements  AfterViewInit{
 
     @Component({
       selector: 'pm-ytplayer',
-      template: '<div id="CenterWrapper"><iframe [src]="getVideoUrl()" frameborder="0" width="700" height="315"  allowfullscreen></iframe></div>'
+      template: '<div id="CenterWrapper"><iframe [src]="getVideoUrl()" frameborder="0" ' +
+        'width="700" height="315" allowfullscreen></iframe></div>'
     })
     class YtPlayerComponent {
       @Input() VideoLink: CarouselItem;
@@ -126,8 +128,26 @@ export class OTFAComponent implements  AfterViewInit{
     }
 
 
+    @Component({
+      selector: 'pm-image',
+      template: '<div id="CenterWrapper"> <a [href]="getImageUrl()" [attr.data-lightbox]="id"><img id="{{id}}" [src]="getImageUrl()"> </a></div>'
+    })
+    class ImageComponent {
+      @Input() ImageLink: CarouselItem;
 
-    this.tmpModule = NgModule( {declarations: [tmpCmp, CarouselComponent, YtPlayerComponent],  imports: [CommonModule], exports: [CommonModule], entryComponents: []})(class {
+      public id: string;
+
+      constructor(private sanitizer: DomSanitizer) {
+        this.id = 'id' + Guid.newGuid();
+      }
+
+      getImageUrl()   {
+        return this.sanitizer.bypassSecurityTrustResourceUrl(this.ImageLink.url);
+      }
+    }
+
+
+    this.tmpModule = NgModule( {declarations: [tmpCmp, CarouselComponent, YtPlayerComponent, ImageComponent],  imports: [CommonModule], exports: [CommonModule], entryComponents: []})(class {
     });
     this._compiler.clearCacheFor(this.tmpModule);
     this._compiler.compileModuleAndAllComponentsAsync(this.tmpModule)
