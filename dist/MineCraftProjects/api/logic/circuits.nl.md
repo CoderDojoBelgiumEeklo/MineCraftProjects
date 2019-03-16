@@ -76,3 +76,13 @@ Een andere belangrijke schakeling is een geheugencel, ook wel een latch of een f
  Zowel de t als de D Flip Flop maken vaak intern gebruik van een interne SR-latch. Soms worden ook hybrides gecreered waarop men ook de S en R ingangen kan manipuleren.
  
  ##Clocks     
+
+Nu hebben we circuits gezien met een enkele stabiele uitgangstoestand (monostabiel) en 
+twee stabiele uitgangstoestanden (bistabiele). 
+Hoe zit het met schakelingen waarbij geen van beide uitvoeringen stabiel is, d.w.z. Aan wordt na een tijd uit en vice versa? Dit zijn klokken (en je kunt ze ook wel stabiele circuits noemen).
+
+Er zijn drie interessante cijfers die een klok definiëren: hoe lang blijft hij aan (de pulsduur), hoe lang blijft hij uit en de som van de twee (de periode).
+
+Soms is het voldoende om alleen de periode te vertellen (hoelang tot deze weer aan gaat), maar ik raad aan om altijd de pulsduur te vertellen (bijv. Als ik "een 1/4 klok" zeg, ik bedoel een klok die op voor 1 van de 4 tikken, maar tot nu toe lijkt er op dit forum geen conventie te zijn).
+
+Een alternatieve manier om dat te doen is om de duty-cycle van de klok te definiëren: de pulsduur gedeeld door de periode.

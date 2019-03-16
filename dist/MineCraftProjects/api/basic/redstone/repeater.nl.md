@@ -55,4 +55,4 @@ Voorheen was de simpelst mogelijke klok een "5-klok". Gemaakt door vijf redstone
 
 
 >Bron:
->[Minecraftpedia](https://minecraft-nl.gamepedia.com/Redstone-repeater)
+>[Minecraftpedia](https://minecraft.gamepedia.com/repeater)
