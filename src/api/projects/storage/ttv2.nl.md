@@ -13,13 +13,13 @@ De belangrijkste regel in dit systeem.
  Met andere woorden er mag geen enkele plaats leeg zijn in de kisten.
   
  Voordeel van dit ontwerp is dat het modulair, gemakkelijk uitbreidbaar, is.  
- Laten we beginnen. Open een test wereld in minecrqft 1.13+.  
- Op onderstaande foto's zie je een kamer met 4 modules. (De totale kamer bevat er 8).  
+ Laten we beginnen. Open een test wereld in minecraft 1.13+.  
+ Op onderstaande foto's zie je een kamer met 8 modules. (De totale kamer bevat er 8).  
  
  %cstart%
- https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/TangoTekMultiSortRoom.gif?raw=true
- https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/TangoTekStorageV2.png?raw=true,
- https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/TangoTekStorageRoomView.png?raw=true
+ https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/TangoTekMultiSortRoom.gif?raw=true,
+ https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/TangoTekStorageV2.png?raw=true,
+ https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/TangoTekStorageRoomView.png?raw=true
  %cend%
  
  Voor deze uitleg houden we het op 2 modules.  
