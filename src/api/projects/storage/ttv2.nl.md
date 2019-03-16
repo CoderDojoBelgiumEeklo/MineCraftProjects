@@ -24,7 +24,7 @@ De belangrijkste regel in dit systeem.
  
  Voor deze uitleg houden we het op 1 modules.  
  Dit om te toenen hoe het syteem werkt en hoe we tussen modules items doorgeven.  
- Een module is minimum 4 bij 9 en 11 hoog (kisten en redstone logica voor de module) hierbij moet men dus nog rekening houden met invoer van en transport tussen meerdere modules.
+ Een module is minimum 4 bij 9 en 12 hoog (kisten en redstone logica voor de module) hierbij moet men dus nog rekening houden met invoer van items en transport tussen meerdere modules.
  
  
  Laten we beginnen met de eerste module.
@@ -142,5 +142,143 @@ https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/asset
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap14c.png?raw=true,
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap14d.png?raw=true,
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap14e.png?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap14f.png?raw=true
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap14f.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap14g.png?raw=true
 %cend%
+
+##Stap 15
+
+Plaats een blok boven de redstone toorts geplaatst in stap 2.    
+Plaats nu 3 slabs in een l configuratie.
+
+%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap15.png?raw=true %iend%
+
+###Stap 16
+Plaats  nu een redstone block op de slab onder de kist.  
+Plaats een blok op de slab naast de redstone.  
+Plaats een repeater tegen de blok op de laatste vrije slab. (richting van de uitgang is naar de blok)
+
+%cstart%
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap16a.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap16b.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap16c.png?raw=true
+%cend%
+
+###Step 17
+
+Ga naar de andere kant van de module en plaats een blok op de output hopper en plaats 2 slabs op dezelfde hoogte als de dropper.
+
+%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap17.png?raw=true %iend%
+
+###Stap 18
+Plaats een repeater in de richting van de blok. Verbind deze repeater en die aan de andere kant met elkaar dmv redstone.
+
+%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap18.png?raw=true %iend%
+
+###Stap 19
+Plaats op de 2 centrale hoppers 2 volle blokken.  
+Plaats aan beide zijden in de richting van de kisten 2 slabs.  
+Plaats een volle blok naast de hoppers. Er mot dus een opening zijn.
+
+%cstart%
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap19a.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap19b.png?raw=true
+%cend%
+
+###Stap 20
+
+Plaats een repeater in de richting van van elke blok.  
+Verbind deze met redstone stof.  
+Aan de binnenzijde plaatst men 2 redstone toortsen.
+
+%cstart%
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap20a.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap20b.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap20c.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap20d.png?raw=true
+%cend%
+
+###Stap 21
+
+Herhaal dit nog 2 maal.
+
+
+%cstart%
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap21a.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap21b.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap21c.png?raw=true
+%cend%
+
+###Stap 22
+
+Maak nu de de 'droppervator' door nog 7, naar bovengerichte, droppers op elk van de de huiige droppers te plaatsen.
+Plaats nu boven aan de droppervator een dropper met de uitgang naar de kisten gericht.
+
+%cstart%
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap22a.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap22b.png?raw=true
+%cend%
+
+###Stap 23
+
+Maak een verbinding van de droppers naar hun input hopper.
+
+%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap23.png?raw=true %iend%
+
+###Stap 24
+
+Plaats nu een paar blokken tussen de hoppers die aan de droppers staan.  
+Plaats aan de voorzijde van de blok een paar redstone toortsen.  
+Deze zouden in lijn moeten zijn met de toortsen van de blokken daaronder
+Plaats boven op de blokken een stukje redstone dust.
+
+%cstart%
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap24a.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap24b.png?raw=true
+%cend%
+
+###Stap 25
+
+Verbind de restone van de droppervator met de redstoneclock.  
+Ga naar de achterkant van de installatie. Maak tussen de 2 dropper Kolommen een opwaarts redstone traject.  
+Doe dit door alternerend de bovenste slab te plaatsen aan een van de 2 kanten. en hierop een redstone stof te leggen. 
+Plaats op de invoer hopper van de 2 de droppervator een stuk redstone. Dit verbind de volledig toren met het clock signaal.
+
+%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap25.png?raw=true %iend%
+
+
+###Stap 26
+
+Maak ne uun toren van blokken en toortsen zoals in de afbeelding. De hoogste blok moet gelijk lopen met de hoogste droppers.
+Plaats ook alle redstone toortsen zoals in de afbeelding.  
+Alle toortsen aan de binnenkant zouden moeten branden..
+
+%cstart%
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap26a.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap26b.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap26c.png?raw=true
+%cend%
+
+###Stap 27
+
+De laatste stap.  
+Plaats nu toortsen op de buitenste witte blokken gericht naar de droppers. Dit is per kolom een totaal van 4 toortsen
+
+%cstart%
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap27a.png?raw=true,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Stap27b.png?raw=true
+%cend%
+
+Onze module is nu klaar.
+
+Bouw een 2de module aan de rechterkant naast de eerste module. laat 1 blok plaats tussen de 2 modules. Indien je een 
+
+##Lag preventie.
+
+Aangezien we hier met knipperende redstone werken kunnen we onbedoeld lag creeren. Door de manier waarop minecraft en redstone werken zal bij elke 
+redstone update een omgevingslicht update getriggered worden. Om dit tegen te gaan verlicht men de achter en tussen de modules met tortsen , gloeisteen blokken of zeelantaarns.
+Als er voldoende ander licht aanwezig is zal er geen licht update gebeuren.
+
+%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/DualModule.png?raw=true %iend% 
+
+##Verbinden van 2 systemen
