@@ -3,41 +3,38 @@
 Item opslag het logistieke probleem dat we allemaal kennen. Gelukkig hebben we meerdere manieren om dit op te lossen.
 Hieronder volgen een paar opslag oplossingen. nier allemaal even snel of server vriendelijk maar toch leuke concepten.
 
+##Opslag oplossing 1.
 
-
-##Tango Tek Multi item sorting V2.0
-
-%vstart% https://www.youtube.com/watch?v=wsNV9Mo00Gw %vend%
-
-Onze eerste opslag systeem. Zoals je kan zien aan de titel is dit de 2de versie van dit opslag systeem.
-Dit was een versie oorspronkkelijk voor 1.12, dus geen mogelijkheid om meerdere kisten naast elkaar te zetten.
-
-De belangrijkste regel in dit systeem.  
-
-
-   **Minstens 1 item moet aanwezig zijn.**
- 
- Met andere woorden er mag geen enkele plaats leeg zijn in de kisten.
+Soaryn chest: Random kisten verspreid over basis en wereld niet gesorteerd.   
+  => Voor zij die graag op schatten jacht gaan
   
- Voordeel van dit ontwerp is dat het modulair, gemakkelijk uitbreidbaar, is.  
- Laten we beginnen. Open een test wereld in minecrqft 1.13+.  
- Op onderstaande foto zie je een kamer met 4 modules. (De totale kamer bevat er 8).  
+##Opslag Oplossing 2.  
  
- ![Tango tek Storage V2](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/TangoTekMultiSortRoom.gif?raw=true)
+Tango Tek modular multi sorting storage system V2.
+  => een niet zo server vriendelijke editis als men dit niet correct doet
  
- 
- 
- 
- 
+##Opslag Oplossing 3.
 
+Tango Tek modular multi sorting storage system V3.
+ => Verbeterde editie van versie 2
+ 
+##Opslag Oplossing 4.
 
+Gnembons server friendly storage solution
 
+##Opslag Oplossing 5 & 6.
 
+Seth blings infinite storage  en impoved infinite storage.
 
-## inifinte Storage (SethBling)
+**Modded oplossing
+
+### SSD Or Super Soaryn Drive (AE2)
+
+Een interessante manier om de Applied Energistics mod te misbruiken.
+  => kennis van Applied Energistics is nodig.
 
 %vstart%
+  https://player.twitch.tv/?autoplay=false&video=v40796839
+%vend%
 
-https://www.youtube.com/watch?v=k4kw9quZcB0
-
-%vstop%
+[SSD uitleg op reddit (Engels)](https://www.reddit.com/r/feedthebeast/comments/309bex/super_soaryn_drive_a_simplified_explanation/)
