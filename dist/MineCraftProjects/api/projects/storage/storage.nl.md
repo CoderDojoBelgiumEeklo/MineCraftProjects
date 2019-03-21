@@ -6,7 +6,7 @@ Hieronder volgen een paar opslag oplossingen. nier allemaal even snel of server 
 ##Opslag oplossing 1.
 
 Soaryn chest: Random kisten verspreid over basis en wereld niet gesorteerd.   
-  => Voor zij die graag op schatten jacht gaan
+  => Voor zij die graag op schattenjacht gaan
   
 ##Opslag Oplossing 2.  
  
@@ -17,6 +17,50 @@ Tango Tek modular multi sorting storage system V2.
 
 Tango Tek modular multi sorting storage system V3.
  => Verbeterde editie van versie 2
+
+
+###Template bestanden.
+
+Bij deze template bestanden voor de oefening.
+
+Bestand 1: Module template : [download](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/cdjmodule.zip?raw=true)  
+Bestand 2: Kamer template : [download](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/cdjroom.zip?raw=true)
+
+Voor je de wereld opent:
+* klik op de naam van je wereld
+* klik daarna op de knop Edit/ bewerken.
+* Klik op 'open world folder'/ "open wereld map"
+* Maak hier een map generated aan.  
+ 
+%istart%
+  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/folderstructure.gif?raw=true 
+ %iend%
+
+* Kopiëer de mappen uit de zip bestanden in de generated map
+* Keer terug naar minecraft
+* open je wereld
+* Geef je speler een structure blok: /give @p minecraft:structure_block
+* plaats de blok in de wereld
+* open de blok  en ga naar het load scherm
+* Vul als structuur naam het volgende in
+  * Voor de kamer cdj:templatetangotek
+  * Voor de module cdj:moduletemplate
+ * zet Inclusief entiteiten op 'aan'
+ * Klik op load
+ * Controleerd de positionering
+ * Open de blok nogmaals
+ * Klik weer op load
+ 
+ de template is nu ingeladen in je wereld.
+  
+
+
+Gebruik van de structure block
+
+%vstart%
+  https://www.youtube.com/watch?v=Rlnx4cTc0yo
+%vend%
+
  
 ##Opslag Oplossing 4.
 
@@ -25,6 +69,21 @@ Gnembons server friendly storage solution
 ##Opslag Oplossing 5 & 6.
 
 Seth blings infinite storage  en impoved infinite storage.
+
+
+##Shullker storage 
+
+Alle voorgaande oplossingen zijn gebaseerd op kisten. we hebben ook nog shulker systemen.
+
+Scroll naar beneden voor videos hierover
+[Minepedia](https://minecraft.gamepedia.com/Tutorials/Shulker_box_storage)
+
+##Uitdaging
+
+Combineer oplossing 6 met een shulker systeem Laden en ontladen.
+
+
+
 
 **Modded oplossing
 

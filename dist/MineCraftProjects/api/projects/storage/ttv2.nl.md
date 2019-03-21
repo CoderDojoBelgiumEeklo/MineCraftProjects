@@ -22,8 +22,8 @@ De belangrijkste regel in dit systeem.
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/TangoTekStorageRoomView.png?raw=true
  %cend%
  
- Voor deze uitleg houden we het op 1 modules.  
- Dit om te toenen hoe het syteem werkt en hoe we tussen modules items doorgeven.  
+ Voor deze uitleg houden we het op 2 modules.  
+ Dit om te tonen hoe het syteem werkt en hoe we tussen modules items doorgeven.  
  Een module is minimum 4 bij 9 en 12 hoog (kisten en redstone logica voor de module) hierbij moet men dus nog rekening houden met invoer van items en transport tussen meerdere modules.
  
  
@@ -36,7 +36,7 @@ De belangrijkste regel in dit systeem.
 
 Eenmaal je dit geplaatst hebt kunnen we verder gaan met de redstone gedeeltes.
 
-## De redstone constuctie
+## De redstone clock
 
 ###Stap 1
 
@@ -302,5 +302,14 @@ De aanpassing die moet gebeuren is heel klein. Op de hopper lijn tussen de ouput
 
 %cstart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/extraInput1.png?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/extraInput2.png?raw=true
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/extrainput2.png?raw=true
 %cend%
+
+
+
+###Strucuter file
+
+een afgewertke versie van Tango teks multi item sorting systeem.
+[download](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/projects/storage/tangotekv2/ttv2Structure.zip?raw=true)
+
+
