@@ -17,6 +17,15 @@ Tango Tek modular multi sorting storage system V2.
 
 Tango Tek modular multi sorting storage system V3.
  => Verbeterde editie van versie 2
+
+
+###Template bestanden.
+
+Bij deze template bestanden voor de oefening.
+
+Bestand 1: Module template : [download]()
+Bestand 2: Kamer template : [download]()
+
  
 ##Opslag Oplossing 4.
 
@@ -25,6 +34,10 @@ Gnembons server friendly storage solution
 ##Opslag Oplossing 5 & 6.
 
 Seth blings infinite storage  en impoved infinite storage.
+
+
+
+
 
 **Modded oplossing
 
