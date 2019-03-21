@@ -14,8 +14,12 @@ export class PageSelectorService {
   constructor(private translationHelper: TranslationHelperService,
               private _slss: SiteLocalStorageService) {
     this._activePage = '/welcome';
-    if (this._slss.getStorageSupported()){
-      this.setActivePage(this._slss.LoadSiteData(SiteKeys.LastPage));
+    if (this._slss.getStorageSupported()) {
+      const page = this._slss.LoadSiteData(SiteKeys.LastPage);
+      if (typeof page !== null && page)       {
+        this.setActivePage(page);
+      }
+
     }
   }
 

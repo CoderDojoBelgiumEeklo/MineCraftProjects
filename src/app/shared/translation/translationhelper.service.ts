@@ -20,7 +20,11 @@ export class TranslationHelperService {
                       {id: 2, value: 'français', abbreviation: 'fr'}];
     this.currentLanguage = this.Languages[0];
     if ( this._slss.getStorageSupported()) {
-      this.ChangeLanguage(parseInt(this._slss.LoadSiteData(SiteKeys.LastLanguage), 10));
+      const lastLanguage = parseInt(this._slss.LoadSiteData(SiteKeys.LastLanguage), 10);
+      if (!isNaN(lastLanguage)) {
+        this.ChangeLanguage(lastLanguage);
+      }
+
     }
   }
 
