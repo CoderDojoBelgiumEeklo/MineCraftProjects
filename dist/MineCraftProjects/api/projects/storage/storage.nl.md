@@ -78,14 +78,8 @@ Alle voorgaande oplossingen zijn gebaseerd op kisten. we hebben ook nog shulker 
 Scroll naar beneden voor videos hierover
 [Minepedia](https://minecraft.gamepedia.com/Tutorials/Shulker_box_storage)
 
-##Uitdaging
 
-Combineer oplossing 6 met een shulker systeem Laden en ontladen.
-
-
-
-
-**Modded oplossing
+#Modded oplossing
 
 ### SSD Or Super Soaryn Drive (AE2)
 
