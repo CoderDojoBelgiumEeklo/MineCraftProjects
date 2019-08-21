@@ -4,7 +4,11 @@ import * as showdown from 'showdown';
 import {PageSelectorService} from '../pageselector.service';
 import {YtplayermarkdownService} from './ytplayermarkdown.service';
 import {CarouselmarkdownService} from './carouselmarkdown.service';
-import {ImagemarkdownService} from './imagemarkdown.service';
+import {LlService} from './ll.service';
+import {LrService} from './lr.service';
+import {CarouselImageLinkCreatorService} from './carouselImageLinkCreator.service';
+import {EscapeSanitizerService} from './escapeSanitizer.service';
+import {LlTextManipulationService} from './llTextManipulation.service';
 
 
 
@@ -16,12 +20,15 @@ export class MarkdownService {
   private html: string;
   private converter: showdown.Converter;
 
-  constructor(private http: HttpClient, private pageSelector: PageSelectorService, private ytplayerMarkdown: YtplayermarkdownService,
-              private carouselMarkdown: CarouselmarkdownService, private imageMarkdown: ImagemarkdownService) {
-    showdown.extension('carousel', carouselMarkdown.getMarkdownExtension());
+  constructor(private http: HttpClient, private pageSelector: PageSelectorService, private cilc: CarouselImageLinkCreatorService,
+              private ytplayerMarkdown: YtplayermarkdownService, private esz: EscapeSanitizerService,
+              private carouselMarkdown: CarouselmarkdownService,
+              private llService: LlService, private lrSevice: LrService, private lltm: LlTextManipulationService) {
+    showdown.extension('carousel', carouselMarkdown.getMarkdownExtension(cilc));
     showdown.extension('ytplayer', ytplayerMarkdown.getMarkdownExtension());
-    showdown.extension('image', imageMarkdown.getMarkdownExtension());
-    this.converter = new showdown.Converter({extensions: ['carousel', 'ytplayer', 'image']});
+    showdown.extension('ll', llService.getMarkdownExtension(cilc, esz, lltm));
+    showdown.extension('lr', lrSevice.getMarkdownExtension(cilc, esz, lltm));
+    this.converter = new showdown.Converter({extensions: ['carousel', 'ytplayer',  'll', 'lr']});
   }
 
   getMarkdownFile() {

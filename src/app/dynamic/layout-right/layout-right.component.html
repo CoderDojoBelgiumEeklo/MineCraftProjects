@@ -1,0 +1,28 @@
+<style>
+  .layoutRightGrid{
+    display: grid;
+    grid-template-columns:  1fr 375px;
+    grid-template-rows: auto;
+    grid-template-areas: "T I";
+    grid-gap: 5px;
+  }
+
+  .layoutRightImage{
+    grid-area: I;
+  }
+
+  .layoutRightText{
+    grid-area: T;
+  }
+</style>
+<section>
+  <div class="layoutRightGrid">
+    <div class="layoutRightImage">
+      <pm-carousel [ImageLinks]="partInfo.imagePart"></pm-carousel>
+    </div>
+    <div class="layoutRightText">
+      <pre class="cpre">{{partInfo.textPart}}</pre>
+    </div>
+  </div>
+</section>
+

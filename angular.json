@@ -24,13 +24,13 @@
               "src/api"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.css",
-              "node_modules/font-awesome/css/font-awesome.css",
-              "src/css/styles.css",
-              "node_modules/lightbox2/dist/css/lightbox.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css",
+              "node_modules/lightbox2/dist/css/lightbox.css",
+              "src/css/styles.css"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.js",
+              "node_modules/jquery/jquery.js",
               "node_modules/bootstrap/dist/js/bootstrap.js",
               "node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"
             ]

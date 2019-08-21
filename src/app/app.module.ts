@@ -11,6 +11,9 @@ import {SubMenuComponent} from './shared/sidemenu/submenu.component';
 import {SidebarModule} from 'ng-sidebar';
 import {SanitizeHtmlPipe} from './shared/sanitize-html.pipe';
 import {OTFModule} from './dynamic/otf.module';
+import { FooterComponent } from './shared/footer/footer.component';
+
+
 
 @NgModule({
   declarations: [
@@ -19,6 +22,7 @@ import {OTFModule} from './dynamic/otf.module';
     MainMenuComponent,
     SubMenuComponent,
     SanitizeHtmlPipe,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

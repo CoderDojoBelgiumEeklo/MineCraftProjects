@@ -1,31 +1,22 @@
 import {Injectable} from '@angular/core';
+import {CarouselImageLinkCreatorService} from './carouselImageLinkCreator.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CarouselmarkdownService {
 
-  getMarkdownExtension () {
+  getMarkdownExtension (cilc: CarouselImageLinkCreatorService) {
     let matches: Array<string> = [];
 
-    return [{type: 'lang', regex: /%cstart%([^]+?)%cend%/gi, replace : function(s, match) {
-        matches.push(match);
+    return [{type: 'lang', regex: /[?][c][\(]([^]+?)[\)]/gmi, replace : function(s, match) {
+        matches.push(cilc.GetImageLinks(match));
         return '%carouselplaceholder' + (matches.length - 1) + '%';
       }}, { type: 'output', filter: function(text) {
         for (let i = 0; i < matches.length; ++i) {
           const pat = '<p>%carouselplaceholder' + i + '% *<\/p>';
 
-          const links =   matches[i].split(',');
-          let imageLink = '';
-          imageLink = '[';
-          for (let j = 0 ; j < links.length;j++)
-          {
-            imageLink = imageLink + '{url:\'' + links[j] + '\'},'
-          }
-          imageLink = imageLink.substr(0, imageLink.length - 1);
-          imageLink = imageLink + ']';
-
-          const carousel = '<pm-carousel [ImageLinks] ="' + imageLink + '"></pm-carousel>';
+          const carousel = '<pm-carousel [ImageLinks] ="' + matches[i] + '"></pm-carousel>';
 
           // text = text.replace(new RegExp(pat, 'gi'), car);
           text = text.replace(new RegExp(pat, 'gi'), carousel);

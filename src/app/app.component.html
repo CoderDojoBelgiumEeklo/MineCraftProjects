@@ -1,15 +1,30 @@
 
-  <pm-mainmenu style="z-index: 99999!important;"></pm-mainmenu>
 
-  <ng-sidebar-container  style="height: calc(100vh - 60px); z-index: 99;">
-    <ng-sidebar [(opened)]='_opened' [mode]='_mode' [position]="_position"  >
+<div class="mainPageGrid">
+
+  <header class="mainPageGridHeader">
+    <pm-mainmenu></pm-mainmenu>
+    why
+  </header>
+  <nav class="mainPageGridMenu">
       <pm-menu></pm-menu>
-    </ng-sidebar>
-
-    <div ng-sidebar-content >
-
-      <section class="MainContent">
-        <pm-a-component></pm-a-component>
-      </section>
+  </nav>
+  <article class="mainPageGridContent">
+    <div>
+      <pm-a-component></pm-a-component>
     </div>
-  </ng-sidebar-container>
+  </article>
+<footer class="mainPageGridFooter">
+  <pm-footer></pm-footer>
+</footer>
+</div>
+
+
+
+
+
+
+
+
+
+

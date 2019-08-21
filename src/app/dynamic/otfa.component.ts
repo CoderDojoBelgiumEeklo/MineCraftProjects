@@ -15,6 +15,7 @@ import {PageSelectorService} from '../shared/pageselector.service';
 import {CarouselItem} from './carousel/carouselItem';
 import {DomSanitizer} from '@angular/platform-browser';
 import {TranslationHelperService} from '../shared/translation/translationhelper.service';
+import {LayoutData} from './layout-left/layoutData';
 
 
 @Component({
@@ -101,19 +102,15 @@ export class OTFAComponent implements  AfterViewInit{
       constructor(private sanitizer: DomSanitizer) {
         this.id = 'id' + Guid.newGuid();
       }
-
-
       getImg(index: number) {
         return this.sanitizer.bypassSecurityTrustUrl(this.ImageLinks[index].url);
       }
-
-
     }
 
     @Component({
       selector: 'pm-ytplayer',
-      template: '<div id="CenterWrapper"><iframe [src]="getVideoUrl()" frameborder="0" ' +
-        'width="700" height="315" allowfullscreen></iframe></div>'
+      template: '<section><div id="CenterWrapper"><iframe [src]="getVideoUrl()" frameborder="0" ' +
+        'width="700" height="315" allowfullscreen></iframe></div></section>'
     })
     class YtPlayerComponent {
       @Input() VideoLink: CarouselItem;
@@ -127,27 +124,24 @@ export class OTFAComponent implements  AfterViewInit{
       }
     }
 
-
     @Component({
-      selector: 'pm-image',
-      template: '<div id="CenterWrapper"> <a [href]="getImageUrl()" [attr.data-lightbox]="id"><img id="{{id}}" [src]="getImageUrl()"> </a></div>'
+      selector: 'pm-layout-left',
+      templateUrl: './layout-left/layout-left.component.html'
     })
-    class ImageComponent {
-      @Input() ImageLink: CarouselItem;
-
-      public id: string;
-
-      constructor(private sanitizer: DomSanitizer) {
-        this.id = 'id' + Guid.newGuid();
-      }
-
-      getImageUrl()   {
-        return this.sanitizer.bypassSecurityTrustResourceUrl(this.ImageLink.url);
-      }
+    class LayoutLeftComponent {
+      @Input() partInfo: LayoutData;
     }
 
+    @Component({
+      selector: 'pm-layout-right',
+      templateUrl: './layout-right/layout-right.component.html'
+    })
+    class LayoutRightComponent {
+      @Input() partInfo: LayoutData;
+    }
 
-    this.tmpModule = NgModule( {declarations: [tmpCmp, CarouselComponent, YtPlayerComponent, ImageComponent],  imports: [CommonModule], exports: [CommonModule], entryComponents: []})(class {
+    this.tmpModule = NgModule( {declarations: [tmpCmp, CarouselComponent, YtPlayerComponent,  LayoutLeftComponent, LayoutRightComponent],
+      imports: [CommonModule], exports: [CommonModule], entryComponents: []})(class {
     });
     this._compiler.clearCacheFor(this.tmpModule);
     this._compiler.compileModuleAndAllComponentsAsync(this.tmpModule)

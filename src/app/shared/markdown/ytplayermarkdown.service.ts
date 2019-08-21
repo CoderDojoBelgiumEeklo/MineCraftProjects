@@ -10,7 +10,7 @@ export class YtplayermarkdownService {
   getMarkdownExtension () {
     let matches: Array<string> = [];
 
-    return [{type: 'lang', regex: /%vstart%([^]+?)%vend%/gi, replace : function(s, match) {
+    return [{type: 'lang', regex: /[?][v][[]([^]+?)[\]]/gi, replace : function(s, match) {
         matches.push(match);
         return '%ytplaceholder' + (matches.length - 1) + '%';
       }}, { type: 'output', filter: function(text) {

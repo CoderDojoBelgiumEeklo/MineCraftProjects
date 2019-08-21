@@ -1,19 +1,12 @@
-<div *ngFor="let menugroup of menu" id="accordion">
 
-  <div class="card">
-    <div class="card-header">
-      {{menugroup.translation[translationHelper.currentLanguage.id].Value}}
-    </div>
-
-    <div class="card-body p-0" >
-      <div *ngFor="let sm of menugroup.submenu">
-        <div *ngIf="sm">
-          <pm-submenu [submenu]="sm"></pm-submenu>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-</div>
+  <nav class="navbar navbar-dark bg-dark " id="cdsidemenu-wrapper">
+    <ul class="nav sidemenu-nav" >
+      <li *ngFor="let menugroup of menu">
+        <a class="nav-link" (click)="linkClicked(menugroup.id);">
+          <i [ngClass]="menugroup.icon" ></i>
+          {{menugroup.translation[translationHelper.currentLanguage.id].Value}}
+        </a>
+      </li>
+    </ul>
+  </nav>
 

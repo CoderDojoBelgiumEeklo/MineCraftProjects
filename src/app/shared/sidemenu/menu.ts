@@ -4,6 +4,8 @@ import {ISubmenu} from './submenu';
 
 export interface IMenu {
   id: number;
+  link: string;
   translation: ITranslation[];
-  submenu: ISubmenu[];
+  submenu: IMenu[];
+  icon: string;
 }
