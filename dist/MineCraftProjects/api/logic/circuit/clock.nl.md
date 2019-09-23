@@ -26,12 +26,12 @@ We gebruiken de uitgang van de vergelijker als 1 van de zij ingangen.
 
 ![compqratorclock](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock.png?raw=true)
 ![compqratorclock](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock2.png?raw=true)
-%cstart%
+?c(
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock.png?raw=true,
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock2.png?raw=true,
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock.png?raw=true, +
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock2.png?raw=true +
-%cend%
+)
 
 
 Bij elke stap vanaf de uitgang verliezen we 1 sterkte eenheid. we maken 2 stappen dus het signaal aan de vergelijk ingang is 2 laager dan het originele input signaal.

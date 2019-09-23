@@ -26,19 +26,19 @@ Ga naar de volgende site: [https://mcreator.net/](https://mcreator.net/)
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/website.PNG?raw=true
-%iend%
+ )
 
 Klik op de knop download mcreator en kies dan de versie
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/versionselection.PNG?raw=true
-%iend%
+ )
 
 op de volgende pagina kan uw kiezen voor welk os u wil downloaden. Kies uw gepaste os en bit architectuur.
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/osselection.PNG?raw=true)
-%iend%
+ )
 
 Wacht tot het programma is gedownload en start de installatie procedure volgens uw os.
 
@@ -52,21 +52,21 @@ Voor linux ga naar [linux installatie](https://mcreator.net/install/linux)
 
 Wanneer we het programma de eerste keer starten zal het een paar voorbereiding doen waaronder het download van de forge minecrqft development kit (forge MDK)
 
-%cstart%
+?c(
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/firststart.PNG?raw=true,
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/firststartconsole.PNG?raw=true
-%cend%
+)
 
 Eenmaal deze voorbereiding gedaan is krijgen we een melding voor een pylo account. Dit is niet nodig in deze sessie. Men mag dus de 'skip' knop gebruiken.
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/pyloaccount.PNG?raw=true)
-%iend%
+ )
 
 Nu zien we de user interface van het programma. 
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/startupcompleted.PNG?raw=true)
-%iend%
+ )
 
 Ga verder naar Overzicht om uitleg te krijgen over de interface. 

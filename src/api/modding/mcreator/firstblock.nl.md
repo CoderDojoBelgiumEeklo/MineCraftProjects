@@ -13,27 +13,27 @@ Net zoals de vorige keer moeten we eerst een afbeelding maken voor onze blok
 
 - Ga naar tools en klik op "Create item/block texture"
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/toolstab.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/toolstab.PNG?raw=true  )
 
 -Verander voor "layer 1" en "layer 2" de selectie naar "OREBI...".
 -Verander de kleur van layer 2 naar een gelijkaardig kleur als de staaf.
  
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblocktexture.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblocktexture.PNG?raw=true  )
 
 -Kies bij texture type nu voor "block".
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/texturetypeselection.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/texturetypeselection.PNG?raw=true  )
 
 - Geef als naam "coderdojo_block".
   * We volgend een gelijkaardige conventie als bij onze staaf.
   
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblocktexturename.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblocktexturename.PNG?raw=true  )
 
 - Klik op "Exit".
 
 Je ziet je nieuwe afbeelding in de lijst verschijnen.
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/textureoverview2.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/textureoverview2.PNG?raw=true  )
   
 ##Stap 2: De block maken
 
@@ -41,15 +41,15 @@ Je ziet je nieuwe afbeelding in de lijst verschijnen.
 - selecteer het plusje. 
 - selecteer het item "block" in het uitvouwscherm.
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock.PNG?raw=true  )
 
 - Geef als naam "CoderDojoBlock"
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock1.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock1.PNG?raw=true  )
 
 - Klik op "Create new Block"
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock2.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock2.PNG?raw=true  )
 
 We zien nu een interface waarbij we onze blok kunnen  definieren 
 - We kunnen elke zijde van de blok een eigen afbeelding geven of een afbeelding voor all blokken
@@ -58,19 +58,19 @@ We zien nu een interface waarbij we onze blok kunnen  definieren
 - Klik op het rode vlak 
 - Selecteer onze blok afbeelding
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock3.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock3.PNG?raw=true  )
 
 - Bevestig met "Select"
 
 - Laat de andere instellingen staan
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock4.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock4.PNG?raw=true  )
 
 - Klik op "Next"
 
 Nu gaan we de eigenschappen van onze blok opgeven
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock5.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock5.PNG?raw=true  )
 
 ###Basic properties 
 - Geef de blok een naam door het veld naast "Name in GUI" in te vullen. Zet dit  op "CoderDojo Block"
@@ -129,13 +129,13 @@ Wat moet er gebeuren wanneer de blok uitgegraven wordt in een wereld
  
  Klik op "Next"
  
- %istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock6.PNG?raw=true %iend%
+ ?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock6.PNG?raw=true  )
  
  ##Inventaris
  
  Deze blok heef geen inventaris dus klik gewoon op "Next".
  
- %istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock7.PNG?raw=true %iend%
+ ?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock7.PNG?raw=true  )
 
 ##Events
 
@@ -153,13 +153,13 @@ Hier specifieren we de groote van een ader en de hoogte waarop het in de wereld 
 - Frequency on specific chunks: Hoe groot is een ader binnen een chunk Zet dit op 17
   * chunk: Een chunk is een stuk van 256 blokken hoog  16 blokken lang en 16 blokken breed
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock8.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock8.PNG?raw=true  )
 
 - Klik op "Next"
 
 We zien nu onze blok verschijnen in de interface.
 Start minecraft op en plaats onze blok in de wereld.
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock9.PNG?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newblock9.PNG?raw=true  )
 
 We hebben onze eerste blok gemaakt.

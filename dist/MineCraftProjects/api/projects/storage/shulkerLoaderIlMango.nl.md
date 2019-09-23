@@ -10,7 +10,7 @@ bij deze een voorbeeld van verschillende systemen
 ##Modulair
 
 ### Waffles From nowhere
-%vstart% https://www.youtube.com/watch?v=LclgDnl90xo %vend%
+?v[ https://www.youtube.com/watch?v=LclgDnl90xo ]
 
 Modulair systeem met volgende voordelen:
 * Overflow detectie: Zowel aan de input zijde als aan de shulker laad kant is er een overflow beveiliging
@@ -18,7 +18,7 @@ Modulair systeem met volgende voordelen:
 * Kleine voetafdruk: 10*8*1(2) (opgelet= het is enkel 1 als er minstenst 2 laadstations zijn.)
 
 ###il mango
-%vstart% https://www.youtube.com/watch?v=-gv3-x4QW8M %vend%
+?v[ https://www.youtube.com/watch?v=-gv3-x4QW8M ]
 
 Modulair systeem met volgende voordelen:
 * Overflow detectie: Zowel aan de input zijde als aan de shulker laad kant is er een overflow beveiliging
@@ -30,7 +30,7 @@ Nadeel:
 
 ###javamonk
 
-%vstart% https://www.youtube.com/watch?v=8rAUeNEhphU %vend%
+?v[ https://www.youtube.com/watch?v=8rAUeNEhphU ]
 
 Modulair systeem met volgende voordelen:
 * Laden en ontladen in 1 systeem.

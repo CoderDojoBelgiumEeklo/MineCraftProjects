@@ -1,5 +1,5 @@
 ###gnembon storage system
 
-%vstart%
+?v[
 https://www.youtube.com/watch?v=XQCc7QywrCI
-%vend%
+]

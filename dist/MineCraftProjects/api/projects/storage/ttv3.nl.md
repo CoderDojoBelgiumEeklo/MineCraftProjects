@@ -1,6 +1,6 @@
 # Tango tek Multi item storage sytem v3 by Powasaurus Rex
 
-%vstart% https://www.youtube.com/watch?v=npjJPlH6BZQ %vend%
+?v[ https://www.youtube.com/watch?v=npjJPlH6BZQ ]
 
 Het volgende systeem is een herwerking van het tango tek systeem. Met een iets kleinere redstone voetprint.
 
@@ -14,11 +14,10 @@ Dezelfde regels van het vorige systeem tellen hier. Dit systeem zou niet mogen b
  Laten we beginnen. Open een test wereld in minecraft 1.13+.  
  Op onderstaande foto's zie je een kamer met 8 modules. (De totale kamer bevat er 8).  
  
- %cstart%
- https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/TangoTekMultiSortRoom.gif?raw=true,
+ ?c(
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/TangoTekStorageV2.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/TangoTekStorageRoomView.png?raw=true
- %cend%
+ )
 
 Voor deze uitleg houden we het op 2 modules.  
 Dit om te tonen hoe het syteem werkt en hoe we tussen modules items doorgeven.  
@@ -30,7 +29,7 @@ Laten we beginnen met de eerste module.
 Begin met het bouwen van een platform van 4 bij 9. en plaats ook de kisten voor het systeem.  
  Zie onderstaande afbeelding als referentie. Zoals je ziet heb je dus een constructie van in totaal 11 hoog en 4 breed en 9 lang
   
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/ModuleReference.png?raw=true %iend%  
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/ModuleReference.png?raw=true  )  
 
 Eenmaal je dit geplaatst hebt kunnen we verder gaan met de bouw van dit opslag systeem.
 
@@ -45,7 +44,7 @@ Plaats de volgende constructie. Vanaf de voorkant (kist kant) plaats  2 half sla
 Plaats als derde blok een volle blok.
 Hang hier een redstone toorts op. gericht naar de binnenkant van de 10*4.
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap1.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap1.png?raw=true  )
 
 
 ###Stap 2
@@ -59,7 +58,7 @@ Verbind de juist geplaatste blok met redstone dust met de blok met de toorts.
 
 Als je dit correct gedaan hebt zal de lijn beginnen knipperen.
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap1.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap1.png?raw=true  )
 
 ##De puls verlenger
 
@@ -68,7 +67,7 @@ Als je dit correct gedaan hebt zal de lijn beginnen knipperen.
 plaats nu 4 vergelijkers (comparators) in volgende opstelling.
 Vergeet de redstone dust niet aan de achterzijde 
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap3.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap3.png?raw=true  )
 
 ###Stap 4
 
@@ -76,7 +75,7 @@ Plaats een blok aan de comparator  waarvan de uitgang naar de kisten is gericht.
 En hang hieraan een redstone toorts. Dit zal de redstone clock doen stoppen.
 Vergeet ook niet om een restone dust naast de blok te plaatsen.
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap4.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap4.png?raw=true  )
 
 
 ##Voorbereiding voor de item lift.
@@ -86,7 +85,7 @@ Vergeet ook niet om een restone dust naast de blok te plaatsen.
 Plaats een herhaler(repeater) achter de puls verlenger. Opgelet de zijkant van de repeater wijst naar de puls verlenger.  
 Deze repeater is nodig om ervoor te zorgen dat beide droppervators(liften) lang genoeg actief zijn.
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap5.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap5.png?raw=true  )
 
 ###Stap 6
 
@@ -94,19 +93,19 @@ Plaats nu volgende constuctie.
 Dit is een gedeelte van de lift pulsers. Dit zorgt ervoor dat onze clock actief zal zijn als er items in de lift zitten.
 Vergeet de 2 nieuwe repeaters niet op 3 ticks in te stellen.
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap5.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap5.png?raw=true  )
 
 ###Stap 7
 
 Nu plaatsen we de eerste droppers en hun detectie circuit. Beide systemen zijn identiek.
 
-%cstart%
+?c(
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap7a.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap7b.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap7c.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap7d.png?raw=true
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap7e.png?raw=true
-%cend%
+)
 
 ##De droppervators
 
@@ -114,21 +113,21 @@ Nu plaatsen we de eerste droppers en hun detectie circuit. Beide systemen zijn i
 
 Plaats nu nog 8 droppers boven elke van de eerste droppers. Houd er rekening mee om de laatste naar voor te richten voor de eerste kollom en voor de tweede kollom naar buiten.
 
-%cstart%
+?c(
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap8a.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap8b.png?raw=true
-%cend%
+)
 
 ##Stap 9
 
 Nu gaan we de redstone plaatsen die de droppers zal activeren. Dit circuit kan zo hoog gaan als men wil.
 de redstone dropper vators zijn klaar. Als een item in de onderste dropper steekt zal het door de lift bovenaan uitgespud worden.
 
-%cstart%
+?c(
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap9a.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap9b.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap9c.png?raw=true
-%cend%
+)
 
 ##Item lijnen
 
@@ -136,58 +135,58 @@ de redstone dropper vators zijn klaar. Als een item in de onderste dropper steek
 
 Plaats nu de volgende hopper lijnen. Kijk goed naar de pijltjes voor de richting van de hoppers.
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap10.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap10.png?raw=true  )
 
 ###Stap 11
 
 Plaats nog 2 hoppers. Een hopper zonder pijl is naar beneden gericht.
 
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap11.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap11.png?raw=true  )
 
 
 ###Stap 12
 
 Plaats nu een blok tussen de 2 hopper invoerlijnen. plaats nu ook 3 stukken redstone stof zoals te zien in de contifuratie
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap12.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap12.png?raw=true  )
 
 
 ###Stap 13
 
 Plaats nu een redstone lijn tussen de 2 hopper torens.
 
-%cstart%
+?c(
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap13a.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap13b.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap13c.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap13d.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap13e.png?raw=true
-%cend%
+)
 
 ###Stap 14
 
 Plaats nu een blok aan het clock signaal en plaats hierop een toorts. plaats op de toorts nog een blok.
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap14.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap14.png?raw=true  )
 
 ###Stap 15
 
 Plaats nu het volgende circuit. Dit is onderdeel van het hopper lock systeem.
 Vergeet ook de hopper extra hopper niet
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap15.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap15.png?raw=true  )
 
 ###Stap 16
 
 
 Plaats nu hoppers die in de kisten lopen. Breng de hopper lijnen een hoger dan de kisten.
 
-%cstart%
+?c(
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap16a.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap16b.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap16c.png?raw=true
-%cend%
+)
 
 ##Hopper lock
 
@@ -195,21 +194,21 @@ Plaats nu hoppers die in de kisten lopen. Breng de hopper lijnen een hoger dan d
 
 nu gaan we het volgende circuit herhalen.
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap17.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap17.png?raw=true  )
 
 Afgewerkt:
-%cstart%
+?c(
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap17a.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap17b.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap17c.png?raw=true,
  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap17d.png?raw=true
-%cend%
+)
 
 ###Stap 18
 
 Voeg nu de laatste hopperlijnen toe.
 
-%istart% https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap18.png?raw=true %iend%
+?r[ ](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv3/stap18.png?raw=true  )
 
 
 ###Lag preventie.
@@ -223,11 +222,11 @@ Als er voldoende ander licht aanwezig is zal er geen licht update gebeuren door 
 Om 2 systeme met elkaar te verbinden moeten we de input van de 2de module verbinden met de ouput van de eerste verbinding.
 We kunnen dit bekomen doot in ons voorbeeld 3 hoppers te plaatsen.
 
-%cstart%
+?c(
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Conn1.png?raw=true,
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Conn2.png?raw=true,
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/Conn3.png?raw=true
-%cend%
+)
 
 ##Extra input kisten.
 
@@ -236,7 +235,7 @@ Dit kan van pas komen als je toch weet dat een module niet gebruikt zal worden o
 De aanpassing die moet gebeuren is heel klein. Op de hopper lijn tussen de ouput en input van 2 modules kunnen we een 2de hupperlijn koppelen.
 
 
-%cstart%
+?c(
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/extraInput1.png?raw=true,
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/tangotekv2/extrainput2.png?raw=true
-%cend%
+)

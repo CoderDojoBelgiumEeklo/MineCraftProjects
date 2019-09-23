@@ -64,7 +64,7 @@ export class MenuService {
                     }
                   }
                 }
-                if (link != null) {
+                if (link != null && (index + 1) === this.path.length) {
                   this.pageSelection.setActivePage(link);
                   isPage = true;
                 }

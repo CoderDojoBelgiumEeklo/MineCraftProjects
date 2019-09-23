@@ -12,7 +12,7 @@ Eenmaal de werkruimte is ingeladen hernoem deze naar "MijnCoderDojoMod".
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/startupcompleted.PNG?raw=true
-%iend%
+ )
 
 Als eerste item in onze mod gaan we een metalen staaf maken.
 
@@ -24,13 +24,13 @@ Ga naar de tools tab.
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/toolstab.PNG?raw=true
-%iend%
+ )
 
 Klik op Create Item/Block Texture.
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/toolsnewtexture.PNG?raw=true
-%iend%
+ )
 
 We krijgen nu de bovenstaande interface te zien. Deze interface kunnen we op een gemakkelijke manier de afbeelding maken voor onze staaf.
 Zoal je ziet is er standaard een afbeelding gemaakt die op een erts lijkt.
@@ -43,21 +43,21 @@ Zoal je ziet is er standaard een afbeelding gemaakt die op een erts lijkt.
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newitemingotcoderdojoingot.PNG?raw=true
-%iend%
+ )
 
 - Klik nu op de tekst use.
 - Op de pop-up kies de knop "Item".
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/texturetypeselection.PNG?raw=true
-%iend%
+ )
 
 - Geef nu de naam in voor het item. Om de afbeelding een naam te geven gebruiken we een conventie waarbij de name van het item en de naam van de afgeelding gelijklopend zijn.
 Geef de volgende naam in "coderdojo_ingot". we gebruiken "_ingot" om aan te duiden dat het om een afbeelding van een staaf gaat.
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacemodelementscreateitemname.PNG?raw=true
-%iend%
+ )
 
 -Klik op OK
 -Klik nu op Exit.
@@ -65,7 +65,7 @@ https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/
 In het overzicht zien we nu onze afbeelding staan
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacetexture1.PNG?raw=true
-%iend%
+ )
 
 
 
@@ -76,7 +76,7 @@ Kis nu voor het menu  met de naam "item".
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacemodelementscreateitem.PNG?raw=true
-%iend%
+ )
 
 We krijgen nu een pop-up waarin we ons item kunnen aanmaken. We zullen ons item "CoderDojo_Ingot" noemen.
 Vul dit in en klik op "Create new item"
@@ -84,13 +84,13 @@ Vul dit in en klik op "Create new item"
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacemodelementscreateitemname.PNG?raw=true
-%iend%
+ )
 
 We krijgen nu het eerste configuratie scherm te zien. Hierin bepalen we de afbeelding van onze staaf, op welke manier de staaf  door minecraft gerendered wordt.
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newitemcoderdojoingot.PNG?raw=true
-%iend%
+ )
 
 ###Doe:
 
@@ -99,20 +99,20 @@ https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/textureselection.PNG?raw=true
-%iend%
+ )
 
 - Voor de rest moeten men niets instellen.
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newitemingotcoderdojoingot1.PNG?raw=true
-%iend%
+ )
 
 - Klik op de "Next" knop.
 - Nu configureren we wat standaard zaken voor onze metalen staaf.
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newitemingotcoderdojoingot2.PNG?raw=true
-%iend%
+ )
 
   * Naam van onze staaf in minecraft: We kiezen hier voor "CoderDojo Ingot"
   * Creative inventory tab: in welke tab moet ons item verschijnen
@@ -131,7 +131,7 @@ https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/
  
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newitemingotcoderdojoingot3.PNG?raw=true
-%iend%
+ )
 
 We gaan onze bar chatberichten laten geven wanneer we in de lucht kliken en wanneer we op een block klikken.
 
@@ -143,7 +143,7 @@ We gaan onze bar chatberichten laten geven wanneer we in de lucht kliken en wann
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newitemingotcoderdojoingot3.PNG?raw=true
-%iend%
+ )
 
   * Hierin Sie je standaard een 'event trigger- triggered by external call' dit is het start punt van onze programeer boom.
 - Klik op player management
@@ -151,7 +151,7 @@ https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newitemingotcoderdojoingot4.PNG?raw=true
-%iend%
+ )
 
 - Sleep dit onder de start blok
 - Vul een bericht in
@@ -159,13 +159,13 @@ https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newitemingotcoderdojoingot5.PNG?raw=true
-%iend%
+ )
 
 - Klik op "add procedure" => let op de naam links van de knop.
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newitemingotcoderdojoingot6.PNG?raw=true
-%iend%
+ )
 
 - zoals je ziet is onze interface aangepast; we zien  dat "world" en "entity" een kleur hebben gekregen. 
   * Dit omdat we afhankelijk zijn van deze minecraft objecten.
@@ -180,7 +180,7 @@ Ons eerste item is nu gemaakt.
 
 %istart%
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newitemingotcoderdojoingot7.PNG?raw=true
-%iend%
+ )
 
 Natuurlijk moeten we dit testen dus klik op de "play knop" => ronde knop met het driehoekje.
 Je zal naast de "Console" tekst een groen puntje zien verschijnen. Dit geeft aan dat de mod aan het bouwen is.
@@ -192,10 +192,10 @@ Maak een nieuwe wereld aan in creative/creatief.
 Zoek ons item op in de diversen tab van het creatief menu.
 Als je nu klikt in de lucht of op een blok zal je de tekst zien verschijnen.
 
-%cstart%
+?c(
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newitemingotcoderdojoingot8.PNG?raw=true,
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/newitemingotcoderdojoingot9.PNG?raw=true
-%cend%
+)
 
 
 

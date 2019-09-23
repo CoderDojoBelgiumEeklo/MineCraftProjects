@@ -8,9 +8,9 @@
 
 ##XP Silo 1.13
 
-%vstart%
+?v[
 https://www.youtube.com/watch?v=8bdj_Uk3L_0
-%vend%
+]
 
 
 
@@ -22,6 +22,6 @@ https://www.youtube.com/watch?v=8bdj_Uk3L_0
 ## full automation
 
 
-%vstart%
+?v[
 https://www.youtube.com/watch?v=_9PzB7qDUQo
-%vend%
+]

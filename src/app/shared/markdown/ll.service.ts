@@ -1,7 +1,7 @@
 import {Injectable, SecurityContext} from '@angular/core';
 import {CarouselImageLinkCreatorService} from './carouselImageLinkCreator.service';
 import {EscapeSanitizerService} from './escapeSanitizer.service';
-import {LlTextManipulationService} from './llTextManipulation.service';
+
 
 @Injectable({
   providedIn: 'root'
@@ -9,8 +9,8 @@ import {LlTextManipulationService} from './llTextManipulation.service';
 export class LlService {
 
   getMarkdownExtension(cilc: CarouselImageLinkCreatorService,
-                       esz: EscapeSanitizerService,
-                       lltm: LlTextManipulationService) {
+                       esz: EscapeSanitizerService
+                       ) {
     let matches: Array<any> = [];
 
     return [{
@@ -18,7 +18,7 @@ export class LlService {
         if (match) {
           const t = match.split('](');
           if (t && t[0] && t[1]) {
-            matches.push({textPart: lltm.TransposeLayoutText( esz.escapeString( t[0].trim())), imagePart: cilc.GetImageLinks(t[1].trim())});
+            matches.push({textPart: esz.escapeString( t[0].trim()), imagePart: cilc.GetImageLinks(t[1].trim())});
 
           }
           return '%llplaceholder' + (matches.length - 1) + '%';

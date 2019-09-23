@@ -32,9 +32,9 @@ Voor je de wereld opent:
 * Klik op 'open world folder'/ "open wereld map"
 * Maak hier een map generated aan.  
  
-%istart%
+?r[
   https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/folderstructure.gif?raw=true 
- %iend%
+  )
 
 * Kopiëer de mappen uit de zip bestanden in de generated map
 * Keer terug naar minecraft
@@ -57,9 +57,9 @@ Voor je de wereld opent:
 
 Gebruik van de structure block
 
-%vstart%
+?v[
   https://www.youtube.com/watch?v=Rlnx4cTc0yo
-%vend%
+]
 
  
 ##Opslag Oplossing 4.
@@ -86,8 +86,8 @@ Scroll naar beneden voor videos hierover
 Een interessante manier om de Applied Energistics mod te misbruiken.
   => kennis van Applied Energistics is nodig.
 
-%vstart%
+?v[
   https://player.twitch.tv/?autoplay=false&video=v40796839
-%vend%
+]
 
 [SSD uitleg op reddit (Engels)](https://www.reddit.com/r/feedthebeast/comments/309bex/super_soaryn_drive_a_simplified_explanation/)

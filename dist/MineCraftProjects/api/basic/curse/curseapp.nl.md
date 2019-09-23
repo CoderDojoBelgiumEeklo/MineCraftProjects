@@ -1,11 +1,11 @@
 # Twitch App launcher
 
-%cstart%
+?c(
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock.png?raw=true,
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock2.png?raw=true,
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock.png?raw=true, +
 https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock2.png?raw=true +
-%cend%
+)
 
 ##Welkom
 
@@ -56,9 +56,3 @@ Eenmaal het spel opgestart is zal men de volgende foto zien verschijnen."
 ![BrowseModpacks](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/curse/background.png?raw=true)
 
 
-%cstart%
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock.png?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock2.png?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock.png?raw=true, +
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock2.png?raw=true +
-%cend%

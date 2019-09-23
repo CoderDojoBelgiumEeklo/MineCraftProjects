@@ -8,7 +8,7 @@ import {LlService} from './ll.service';
 import {LrService} from './lr.service';
 import {CarouselImageLinkCreatorService} from './carouselImageLinkCreator.service';
 import {EscapeSanitizerService} from './escapeSanitizer.service';
-import {LlTextManipulationService} from './llTextManipulation.service';
+
 
 
 
@@ -23,11 +23,11 @@ export class MarkdownService {
   constructor(private http: HttpClient, private pageSelector: PageSelectorService, private cilc: CarouselImageLinkCreatorService,
               private ytplayerMarkdown: YtplayermarkdownService, private esz: EscapeSanitizerService,
               private carouselMarkdown: CarouselmarkdownService,
-              private llService: LlService, private lrSevice: LrService, private lltm: LlTextManipulationService) {
+              private llService: LlService, private lrSevice: LrService) {
     showdown.extension('carousel', carouselMarkdown.getMarkdownExtension(cilc));
     showdown.extension('ytplayer', ytplayerMarkdown.getMarkdownExtension());
-    showdown.extension('ll', llService.getMarkdownExtension(cilc, esz, lltm));
-    showdown.extension('lr', lrSevice.getMarkdownExtension(cilc, esz, lltm));
+    showdown.extension('ll', llService.getMarkdownExtension(cilc, esz));
+    showdown.extension('lr', lrSevice.getMarkdownExtension(cilc, esz));
     this.converter = new showdown.Converter({extensions: ['carousel', 'ytplayer',  'll', 'lr']});
   }
 
