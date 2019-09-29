@@ -13,7 +13,7 @@ Dit noemen we binaire logica. De poort kijkt naar de ingangen om te zien wie 1 o
 
 ##Link naar Minecraft
 
-We kunnen dit elektisch signaal vergelijken met redstone. Men heeft een signaal (redstoon actief of 1) of men heeft geen signaal (redstone inactief of 0).
+We kunnen dit elektisch signaal vergelijken met redstone. Men heeft een signaal (redstone actief of 1) of men heeft geen signaal (redstone inactief of 0).
 
 ## Basis Poorten
 
@@ -38,7 +38,6 @@ We onderscheiden 4 bais poorten:
 
 ## De waarheidstabel
 
-
 ?r[
 Om een poort te modeleren maken we gerbuik van een waarheidstable. in deze tabel vinden we een lijst van INGANGEN en UITGANGEN.
 Waarbij elke combinatie van ingangs status het gewenste gedrag toont aan de uitgang.
@@ -48,7 +47,7 @@ De afbeelding aan de zijkant toont de situatie van een enpoort met 3 ingangen.
 Een belangrijk punt bij het opstellen van de tabbel is de manier waarop elke signaal is opgebouwd.
 Voorbeeld signaal A of de eerste ingang zal altijd afwisselend een 0 of een 1 zijn.
 Het 2de signaal zal altijd afwisselend 2 nullen en dan 2 eenen tonen.
-Het 3de signaal gaat 4 nullen en dan 4 eenen tonen. 
+Het 3de signaal gaat 4 nullen en dan 4 maal één tonen. 
 Zoals je dus ziet bij elk bijkomend signaal verdubbelen we de opeenvolgen van  nullen en eenen.
 Als er een vierde signaal zou zijn hadden we we afwisselend 8 nullen en dan 8 eenen.
 
@@ -56,7 +55,6 @@ Hoe weet je hoe veel lijenen je moet hebben? Dit bepaald men door de macht van 2
 Een poort met 3 uitgangen heeft 2³ mogelijke combinaties of 2 * 2 * 2 = 8 mogelijke ingangs schakelingen.
  
 ](
-../assets/logic/TruthTable.PNG
+../MineCraftProjects/assets/logic/TruthTable.PNG
 )
 
-## Legende voor minecrqft shemas

@@ -6,8 +6,8 @@ Een NEN-poort heeft een hoog signaal (1) waneer alle INGANGEN een laag signaal h
 ## Symbool
 
 ?c(
-../assets/logic/gate/andgate.png
-)
+../MineCraftProjects/assets/logic/gate/andgate.png
+)c?
 
 ## Waarheidstabel en wiskundige voorstelling
 
@@ -15,10 +15,10 @@ Een NEN-poort heeft een hoog signaal (1) waneer alle INGANGEN een laag signaal h
 Booleaanse uitdrukking: Q1 = A . B
 Lees als A EN B geven Q1
 ](
-../assets/logic/gate/andgatetruthtable.png
-)
+../MineCraftProjects/assets/logic/gate/andgatetruthtable.png
+)l?
 
 ## Minecraft circuit
 ?c(
-../assets/logic/gate/nandgateminecraft.png
-)
+../MineCraftProjects/assets/logic/gate/nandgateminecraft.png
+)c?

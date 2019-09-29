@@ -14,7 +14,7 @@ export class LlService {
     let matches: Array<any> = [];
 
     return [{
-      type: 'lang', regex: /[?][l][[]([^]+?)[)]/gmi, replace: function (s, match) {
+      type: 'lang', regex: /[?][l][[]([^]+?)[)][l][?]/gmi, replace: function (s, match) {
         if (match) {
           const t = match.split('](');
           if (t && t[0] && t[1]) {

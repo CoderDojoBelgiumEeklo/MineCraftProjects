@@ -4,9 +4,9 @@ De interface is opgebouwd uit verschillende delen.
 
 ##De menubalk
 
-%istart%
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/menubalk.PNG?raw=true
- )
+?c(
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/menubalk.PNG
+ )c?
 
 
 - MCreator Icoon - Dit brengt je naar het hoofd scherm. hier kan je kiezen aan welke mod je werkt
@@ -22,9 +22,9 @@ https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/
 
 ##Main screen/ Hoofd scherm
 
-%istart%
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/startupcompleted.PNG?raw=true
- )
+?c(
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/startupcompleted.PNG
+ )c?
 
 
 Als we het programma opstarten komen we in het werkruimte beheer scherm. hier kunnen we op een gemakkelijke manier verschillende mods beheren.
@@ -38,9 +38,9 @@ Door de gewenste werkruimte te openen kunnen we aan die specefieke mod werken.
 
 ##Workspace/ Werkruimte
 
-%istart%
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacetab.PNG?raw=true
- )
+?c(
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacetab.PNG
+ )c?
 
 Hier maken we de delen waaruit ons mod zal bestaan.
 
@@ -54,20 +54,20 @@ Aan de zijkant hebben we volgende items:
 
 
 ?c(
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacetab.PNG?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacetexture.PNG?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacevariables.PNG?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacesounds.PNG?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacestructure.PNG?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacelocalization.PNG?raw=true
-)
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacetab.PNG,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacetexture.PNG,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacevariables.PNG,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacesounds.PNG,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacestructure.PNG,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/workspacelocalization.PNG
+)c?
 
 
 ##Tools/ hulpmidelen
 
-%istart%
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/toolstab.PNG?raw=true,
- )
+?c(
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/toolstab.PNG,
+ )c?
 
 Hier vinden we tools of links naar tools terug die we kunnen gebruiken tijdesn de creatie van onze mod.
 We bepspreken deze hulpmiddelen wanneer we ze gebruiken.
@@ -75,17 +75,17 @@ We bepspreken deze hulpmiddelen wanneer we ze gebruiken.
 ##Code
 
 
-%istart%
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/codetab.PNG?raw=true
- )
+?c(
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/codetab.PNG
+ )c?
 
 Hier zien we de code van onze mod. Wanneer we onze items maken en configureren kun we hier de code zien die zal gegenereerd worden voor de mod.
 
 ##Console
 
-%istart%
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/consoletab.PNG?raw=true
- )
+?c(
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/consoletab.PNG
+ )c?
 
 Informatie over je mod, de bouw status , fouten tijdens compilatie,...
 
@@ -93,11 +93,11 @@ Informatie over je mod, de bouw status , fouten tijdens compilatie,...
 ##Voorkeuren
 
 ?c(
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/settingsgeneral.PNG?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/settingsui.PNG?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/settingsblockly.PNG?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/settingscodeeditor.PNG?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/settingsgradle.PNG?raw=true
-)
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/settingsgeneral.PNG,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/settingsui.PNG,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/settingsblockly.PNG,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/settingscodeeditor.PNG,
+https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/assets/modding/mcreator/settingsgradle.PNG
+)c?
 
 De voorkeuren voor het programma. We passen in eerste instantie niets aan.

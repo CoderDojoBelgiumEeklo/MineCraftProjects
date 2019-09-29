@@ -6,8 +6,8 @@ Een EN-poort heeft een hoog signaal (1) waneer alle INGANGEN een hoog signaal he
 ## Symbool
 
 ?c(
-../assets/logic/gate/andgate.png
-)
+../MineCraftProjects/assets/logic/gate/andgate.png
+)c?
 
 ## Waarheidstabel en wiskundige voorstelling
 
@@ -15,10 +15,10 @@ Een EN-poort heeft een hoog signaal (1) waneer alle INGANGEN een hoog signaal he
 Booleaanse uitdrukking: Q1 = A . B
 Lees als A EN B geven Q1
 ](
-../assets/logic/gate/andgatetruthtable.png
-)
+../MineCraftProjects/assets/logic/gate/andgatetruthtable.png
+)l?
 
 ## Minecraft circuit
 ?c(
-../assets/logic/gate/andgateminecraft.png
-)
+../MineCraftProjects/assets/logic/gate/andgateminecraft.png
+)c?

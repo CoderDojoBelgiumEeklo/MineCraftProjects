@@ -1,15 +1,13 @@
-import {Injectable} from '@angular/core';
-import {HttpClient, HttpErrorResponse} from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import * as showdown from 'showdown';
-import {PageSelectorService} from '../pageselector.service';
-import {YtplayermarkdownService} from './ytplayermarkdown.service';
-import {CarouselmarkdownService} from './carouselmarkdown.service';
-import {LlService} from './ll.service';
-import {LrService} from './lr.service';
-import {CarouselImageLinkCreatorService} from './carouselImageLinkCreator.service';
-import {EscapeSanitizerService} from './escapeSanitizer.service';
-
-
+import { PageSelectorService } from '../pageselector.service';
+import { YtplayermarkdownService } from './ytplayermarkdown.service';
+import { CarouselmarkdownService } from './carouselmarkdown.service';
+import { LlService } from './ll.service';
+import { LrService } from './lr.service';
+import { CarouselImageLinkCreatorService } from './carouselImageLinkCreator.service';
+import { EscapeSanitizerService } from './escapeSanitizer.service';
 
 
 @Injectable({
@@ -20,26 +18,31 @@ export class MarkdownService {
   private html: string;
   private converter: showdown.Converter;
 
-  constructor(private http: HttpClient, private pageSelector: PageSelectorService, private cilc: CarouselImageLinkCreatorService,
-              private ytplayerMarkdown: YtplayermarkdownService, private esz: EscapeSanitizerService,
-              private carouselMarkdown: CarouselmarkdownService,
-              private llService: LlService, private lrSevice: LrService) {
+  constructor(
+    private http: HttpClient,
+    private pageSelector: PageSelectorService,
+    private cilc: CarouselImageLinkCreatorService,
+    private ytplayerMarkdown: YtplayermarkdownService,
+    private esz: EscapeSanitizerService,
+    private carouselMarkdown: CarouselmarkdownService,
+    private llService: LlService,
+    private lrSevice: LrService
+  ) {
     showdown.extension('carousel', carouselMarkdown.getMarkdownExtension(cilc));
     showdown.extension('ytplayer', ytplayerMarkdown.getMarkdownExtension());
     showdown.extension('ll', llService.getMarkdownExtension(cilc, esz));
     showdown.extension('lr', lrSevice.getMarkdownExtension(cilc, esz));
-    this.converter = new showdown.Converter({extensions: ['carousel', 'ytplayer',  'll', 'lr']});
+    this.converter = new showdown.Converter({ extensions: ['carousel', 'ytplayer', 'll', 'lr'] });
   }
 
   getMarkdownFile() {
     this.html = this.mdBaseUrl + this.pageSelector.getActivePage();
-    return this.http.get(this.html, {responseType: 'text'});
+    return this.http.get(this.html, { responseType: 'text' });
   }
 
   getMarkdown(content: string) {
     return this.converter.makeHtml(content);
   }
-
 
   public handleError(err: HttpErrorResponse) {
     let errorMessage = '';
@@ -51,5 +54,4 @@ export class MarkdownService {
     console.log(errorMessage);
     // return throwError('ErrorMessage');
   }
-
 }

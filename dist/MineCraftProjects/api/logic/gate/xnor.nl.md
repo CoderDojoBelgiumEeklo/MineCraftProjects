@@ -6,8 +6,8 @@ Of anders gezegd beide INGANGEN moeten dezelfde statie signaal hebben om aan de 
 ## Symbool
 
 ?c(
-../assets/logic/gate/xnorgate.png
-)
+../MineCraftProjects/assets/logic/gate/xnorgate.png
+)c?
 
 ## Waarheidstabel en wiskundige voorstelling
 
@@ -16,10 +16,10 @@ Of anders gezegd beide INGANGEN moeten dezelfde statie signaal hebben om aan de 
 Booleaanse uitdrukking: Q1 = ~oline A ⊕ B oline~
 
 ](
-../assets/logic/gate/xnorgatetruthtable.png
-)
+../MineCraftProjects/assets/logic/gate/xnorgatetruthtable.png
+)l?
 
 ## Minecraft circuit
 ?c(
-../assets/logic/gate/xnorgateminecraft.png
-)
+../MineCraftProjects/assets/logic/gate/xnorgateminecraft.png
+)c?

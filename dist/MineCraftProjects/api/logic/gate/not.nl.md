@@ -6,8 +6,8 @@ Of als de INGANG laag (0) is zal de uitgang hoog (1) zijn.
 ## Symbool
 
 ?c(
-../assets/logic/gate/notgate.png
-)
+../MineCraftProjects/assets/logic/gate/notgate.png
+)c?
 
 ## Waarheidstabel en wiskundige voorstelling
 
@@ -16,10 +16,10 @@ Booleaanse uitdrukking: Q1 = NOT A
 Booleaanse uitdrukking: Q1 = Ā
 Lees als inversie van 1 geeft Q1
 ](
-../assets/logic/gate/notgatetruthtable.png
-)
+../MineCraftProjects/assets/logic/gate/notgatetruthtable.png
+)l?
 
 ## Minecraft circuit
 ?c(
-../assets/logic/gate/notgateminecraft.png
-)
+../MineCraftProjects/assets/logic/gate/notgateminecraft.png
+)c?

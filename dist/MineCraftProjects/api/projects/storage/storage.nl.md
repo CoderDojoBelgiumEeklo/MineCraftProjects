@@ -23,8 +23,8 @@ Tango Tek modular multi sorting storage system V3.
 
 Bij deze template bestanden voor de oefening.
 
-Bestand 1: Module template : [download](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/cdjmodule.zip?raw=true)  
-Bestand 2: Kamer template : [download](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/cdjroom.zip?raw=true)
+Bestand 1: Module template : [download](../MineCraftProjects/assets/projects/storage/cdjmodule.zip)  
+Bestand 2: Kamer template : [download](../MineCraftProjects/assets/projects/storage/cdjroom.zip)
 
 Voor je de wereld opent:
 * klik op de naam van je wereld
@@ -33,7 +33,7 @@ Voor je de wereld opent:
 * Maak hier een map generated aan.  
  
 ?r[
-  https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/TSSite/src/assets/projects/storage/folderstructure.gif?raw=true 
+  ../MineCraftProjects/assets/projects/storage/folderstructure.gif 
   )
 
 * Kopiëer de mappen uit de zip bestanden in de generated map

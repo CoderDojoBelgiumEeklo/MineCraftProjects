@@ -13,11 +13,11 @@ Per blok dat we verloppen verliezen we 1 eenheid aan sterkte.
 
 We verkrijgen redstone stof 
 
-![redstoneDust](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/redstonedust.png?raw=true)
+![redstoneDust](../MineCraftProjects/assets/basic/redstone/redstonedust.png)
 
 door het opgraven van redstone erts.
 
-![redstoneOre](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/redstoneore.png?raw=true)
+![redstoneOre](../MineCraftProjects/assets/basic/redstone/redstoneore.png)
 
   
 Redstone-erts laat tussen de 4 tot 5 Redstone vallen en 1 tot 5 ervaring als het wordt gehakt met een ijzeren houweel of beter.   
@@ -32,24 +32,24 @@ Redstone-erts produceert lichtsterkte 9 en rode Redstone-partikels als erop word
 Mogelijke krachtbonnen zijn:
 
 
-![Redstone toorts](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/redstonetoorts.png?raw=true)
-![Redstone blok](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/redstoneblok.png?raw=true)
-![Hendel](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/hendel.png?raw=true)
-![Knoppen](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/knoppen.png?raw=true)
-![drukplaten](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/drukplaten.png?raw=true)
-![Struikeldraad](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/touwenstruikeldraadhaak.png?raw=true)
-![vergelijker](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/redstonecomparator.png?raw=true)
-![sensor](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/sensor.png?raw=true)
-![detectiespoor](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/detectiespoor.png?raw=true)
+![Redstone toorts](../MineCraftProjects/assets/basic/redstone/redstonetoorts.png)
+![Redstone blok](../MineCraftProjects/assets/basic/redstone/redstoneblok.png)
+![Hendel](../MineCraftProjects/assets/basic/redstone/hendel.png)
+![Knoppen](../MineCraftProjects/assets/basic/redstone/knoppen.png)
+![drukplaten](../MineCraftProjects/assets/basic/redstone/drukplaten.png)
+![Struikeldraad](../MineCraftProjects/assets/basic/redstone/touwenstruikeldraadhaak.png)
+![vergelijker](../MineCraftProjects/assets/basic/redstone/redstonecomparator.png)
+![sensor](../MineCraftProjects/assets/basic/redstone/sensor.png)
+![detectiespoor](../MineCraftProjects/assets/basic/redstone/detectiespoor.png)
 
 ##Uitgangen
  
 Via redstone stof kunnen we lampen, blokken, zuiger, TNT, een gevoed spoor (powered rail), een wissel kracht geven
 
-![Redstone toorts](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/zuiger.png?raw=true)
-![Redstone blok](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/lampen.png?raw=true)
-![Hendel](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/door.png?raw=true)
-![Knoppen](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/poweredrail.png?raw=true)
-![drukplaten](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/hopper.png?raw=true)
+![Redstone toorts](../MineCraftProjects/assets/basic/redstone/zuiger.png)
+![Redstone blok](../MineCraftProjects/assets/basic/redstone/lampen.png)
+![Hendel](../MineCraftProjects/assets/basic/redstone/door.png)
+![Knoppen](../MineCraftProjects/assets/basic/redstone/poweredrail.png)
+![drukplaten](../MineCraftProjects/assets/basic/redstone/hopper.png)
 
 

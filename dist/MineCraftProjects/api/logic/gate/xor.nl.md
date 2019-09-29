@@ -6,8 +6,8 @@ Of anders gezegd 1 en slechts 1 INGANG mag een hoog (1) signaal hebben om aan de
 ## Symbool
 
 ?c(
-../assets/logic/gate/xorgate.png
-)
+../MineCraftProjects/assets/logic/gate/xorgate.png
+)c?
 
 ## Waarheidstabel en wiskundige voorstelling
 
@@ -15,10 +15,10 @@ Of anders gezegd 1 en slechts 1 INGANG mag een hoog (1) signaal hebben om aan de
 Booleaanse uitdrukking: Q1 = A ⊕ B
 
 ](
-../assets/logic/gate/xorgatetruthtable.png
-)
+../MineCraftProjects/assets/logic/gate/xorgatetruthtable.png
+)l?
 
 ## Minecraft circuit
 ?c(
-../assets/logic/gate/xorgateminecraft.png
-)
+../MineCraftProjects/assets/logic/gate/xorgateminecraft.png
+)c?

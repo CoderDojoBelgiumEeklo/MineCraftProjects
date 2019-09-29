@@ -8,8 +8,8 @@ Er bestaan vershillende vormen van klokken. De meeste klokken breken door chunkl
 
 De hopper klok maakt gebruik van de bewwging van items in de hopper om een klok signaal te maken.
 
-![hopperclock](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/HopperClock.png?raw=true)
-![hopperclock2](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/HopperClock2.png?raw=true)
+![hopperclock](../MineCraftProjects/assets/basic/redstone/HopperClock.png)
+![hopperclock2](../MineCraftProjects/assets/basic/redstone/HopperClock2.png)
 
 Deze klok heeft een kans op breken ivm chunkloading.
 
@@ -20,18 +20,18 @@ Men plaatst en vergelijker in aftel modus
 De vergelijker krijgt een signaal (door een hendel, redstoneblok, door een container uit te lezen).
 We gebruiken de uitgang van de vergelijker als 1 van de zij ingangen. 
 
-![compqratorclock](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock.png?raw=true)
-![compqratorclock](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock2.png?raw=true)
+![compqratorclock](../MineCraftProjects/assets/basic/redstone/comparatorClock.png)
+![compqratorclock](../MineCraftProjects/assets/basic/redstone/comparatorClock2.png)
 
 
-![compqratorclock](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock.png?raw=true)
-![compqratorclock](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock2.png?raw=true)
+![compqratorclock](../MineCraftProjects/assets/logic/circuit/comparatorClock.png)
+![compqratorclock](../MineCraftProjects/assets/logic/circuit/comparatorClock2.png)
 ?c(
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock.png?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatorClock2.png?raw=true,
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock.png?raw=true, +
-https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/src/assets/logic/circuit/comparatorClock2.png?raw=true +
-)
+../MineCraftProjects/assets/basic/redstone/comparatorClock.png,
+../MineCraftProjects/assets/basic/redstone/comparatorClock2.png,
+../MineCraftProjects/assets/logic/circuit/comparatorClock.png, +
+../MineCraftProjects/assets/logic/circuit/comparatorClock2.png +
+)c?
 
 
 Bij elke stap vanaf de uitgang verliezen we 1 sterkte eenheid. we maken 2 stappen dus het signaal aan de vergelijk ingang is 2 laager dan het originele input signaal.

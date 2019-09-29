@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 4201 -o --watch=true",
+    "start": "ng serve --port 4201 -o --watch=true --servePath=/MineCraftProjects/ --base-href=/MineCraftProjects/",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",

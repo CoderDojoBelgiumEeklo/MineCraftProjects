@@ -3,20 +3,20 @@
 De vergelijker is een redstone apparaat dat 2 verschillende redstone signalen kan verwerken.  
 Als er geen "vergelijk" signaal is aangelsoten zal de vergelijker een signaal van de zelfde sterkte uitsturen als er binnenkomt.
 
-![vergelijker2](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/comparator/comparator.png?raw=true)
+![vergelijker2](../MineCraftProjects/assets/basic/comparator/comparator.png)
 
 Het apparaat heeft 2 modussen:
 - Een vergelijk mode, te herkennen aan het feit dat de voorste toorts niet is opgelicht.   
-![Vergelijk](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/redstonecomparatorcompare.png?raw=true)   
+![Vergelijk](../MineCraftProjects/assets/basic/redstone/redstonecomparatorcompare.png)   
 - De aftel mode, te herkennen aan het feit dat de voorste toorts die is opgelicht.   
-![Substract](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/redstonecomparatorsubstract.png?raw=true)   
+![Substract](../MineCraftProjects/assets/basic/redstone/redstonecomparatorsubstract.png)   
 
 Men kan het apparaat van modus laten wisselen door met de rechts te klikken op de voorste toorts.
 
 ##Doe het zelf
 
 Bouw het volgende mechanisme 2 keer maar plaats een van de vergelijkers in de vergelijk mode en de andere in de aftel mode.
-![Substract](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/comparatortestcircuit.png?raw=true)
+![Substract](../MineCraftProjects/assets/basic/redstone/comparatortestcircuit.png)
 
 Met dit redstone apparaat kan je testen wat de verschillen zijn tussen de 2 modusen.
 
@@ -41,11 +41,11 @@ Anders gezegd de sterkte van het uitgangssignaal is de aftelling van het signaal
 ##Uitlezen 
 Een andere eigenschap van dit apparaat is het uitlezen van containers.
 
-![Kist](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/kistvergelijker.png?raw=true)
+![Kist](../MineCraftProjects/assets/basic/redstone/kistvergelijker.png)
 
 De vergelijker kan dit ook doen met een blok voor de container.
 
-![Kist2](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/kistmetblokvergelijker.png?raw=true)
+![Kist2](../MineCraftProjects/assets/basic/redstone/kistmetblokvergelijker.png)
 
 Volgende items kunnen uitgelezen worden met een vergelijker
 - Fornuis,  
@@ -83,15 +83,15 @@ Een paar mechanismes met comparator:
 
 -Redstone klok. 
 
-![camparatorklok](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/redstonecomparatorklok.png?raw=true)
+![camparatorklok](../MineCraftProjects/assets/basic/redstone/redstonecomparatorklok.png)
 
 -Puls extender 
 
-![camparatorklok](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/pulsextender.png?raw=true)
+![camparatorklok](../MineCraftProjects/assets/basic/redstone/pulsextender.png)
 
 -geautomatiseerde dropper circuit 
 
-![camparatorklok](https://github.com/CoderDojoBelgiumEeklo/MineCraftProjects/blob/gh-pages/img/basic/redstone/autodispenser.png?raw=true)
+![camparatorklok](../MineCraftProjects/assets/basic/redstone/autodispenser.png)
 
 Voor meer info:
 [Mumbo jumbo](https://www.youtube.com/watch?v=w_ZFRV6AT6E)

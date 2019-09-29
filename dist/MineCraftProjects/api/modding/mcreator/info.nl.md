@@ -15,7 +15,7 @@ https://mcreator.net/image/about/about5.png,
 https://mcreator.net/image/about/about3.png,
 https://mcreator.net/image/about/about6.png,
 https://mcreator.net/image/about/about9.png
-)
+)c?
 
 #Wat gaan we doen
 In deze reeks gaan we gebruik maken van mcreator om een eerste mod te maken.

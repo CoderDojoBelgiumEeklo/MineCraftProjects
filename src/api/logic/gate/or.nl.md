@@ -5,8 +5,8 @@ Een OF poort heeft een hoog signaal (1) aan de UITGANG waneer MINSTENS 1 INGANG 
 ## Symbool
 
 ?c(
-../assets/logic/gate/orgate.png
-)
+../MineCraftProjects/assets/logic/gate/orgate.png
+)c?
 
 ## Waarheidstabel en wiskundige voorstelling
 
@@ -14,10 +14,10 @@ Een OF poort heeft een hoog signaal (1) aan de UITGANG waneer MINSTENS 1 INGANG 
 Booleaanse uitdrukking: Q1 = A + B
 Lees als A of B geft Q1
 ](
-../assets/logic/gate/orgatetruthtable.png
-)
+../MineCraftProjects/assets/logic/gate/orgatetruthtable.png
+)l?
 
 ## Minecraft circuit
 ?c(
-../assets/logic/gate/orgateminecraft.png
-)
+../MineCraftProjects/assets/logic/gate/orgateminecraft.png
+)c?
