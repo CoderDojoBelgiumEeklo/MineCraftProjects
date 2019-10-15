@@ -5,7 +5,7 @@ Een observer is de minecraft versie van een BUD switch (Block Update Detector). 
 ##Gebruik
 
 Een observer i geplaatst net zoals een zuiger, en zal kijken (oberveren) naar de block waartegen hij geplaatst is.
-Men kan de obersverende kand van de blok herkennen door het 'observerende gezicht'. Obervers kunnen ook andere observers bekijken.
+Men kan de obersverende kant van de blok herkennen door het 'observerende gezicht'. Obervers kunnen ook andere observers bekijken.
 
 ##Gedrag
 

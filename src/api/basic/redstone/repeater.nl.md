@@ -1,5 +1,6 @@
 #Versterker
 
+?c(../MineCraftProjects/assets/basic/redstone/repeater.png)c?
 
 Een Redstone-Repeater heeft drie hoofd functies: het is een versterker, een diode, en een vertrager.
 Het blok herhaalt de signalen die het ontvangt als een netwerkbrug, zodat het niet langer nodig is elke 15 blokken

@@ -77,7 +77,7 @@ Vergeet ook niet om een restone dust naast de blok te plaatsen.
 ](../MineCraftProjects/assets/projects/storage/tangotekv3/stap4.png)l?
 
 ##Voorbereiding voor de item lift.
-
+ 
 ###Stap 5
 
 ?r[

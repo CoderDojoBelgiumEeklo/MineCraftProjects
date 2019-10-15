@@ -1,7 +1,7 @@
 #Redstone vergelijker
 
 De vergelijker is een redstone apparaat dat 2 verschillende redstone signalen kan verwerken.  
-Als er geen "vergelijk" signaal is aangelsoten zal de vergelijker een signaal van de zelfde sterkte uitsturen als er binnenkomt.
+Als er geen "vergelijk" signaal is aangesloten zal de vergelijker een signaal van de zelfde sterkte uitsturen als er binnenkomt.
 
 ![vergelijker2](../MineCraftProjects/assets/basic/comparator/comparator.png)
 

@@ -8,14 +8,14 @@ Redstone is het energie systeem van Minecraft.
 Dit is het transport systeem van redstone energy in de vanilla editie van minecraft.  
 We kunnen redstone stof dus vergelijken vergelijken met een stroomdraad.  
 Het transporteerd een lading van punt a naar punt b.  
-Zonder hulp kan een lading macimum 15 blokken overbruggen.  
+Zonder hulp kan een lading maximum 15 blokken overbruggen.  
 Per blok dat we verloppen verliezen we 1 eenheid aan sterkte.
 
-We verkrijgen redstone stof 
+We verkrijgen redstone stof :
 
 ![redstoneDust](../MineCraftProjects/assets/basic/redstone/redstonedust.png)
 
-door het opgraven van redstone erts.
+door het opgraven van redstone erts:
 
 ![redstoneOre](../MineCraftProjects/assets/basic/redstone/redstoneore.png)
 
@@ -31,25 +31,32 @@ Redstone-erts produceert lichtsterkte 9 en rode Redstone-partikels als erop word
 
 Mogelijke krachtbonnen zijn:
 
-
-![Redstone toorts](../MineCraftProjects/assets/basic/redstone/redstonetoorts.png)
-![Redstone blok](../MineCraftProjects/assets/basic/redstone/redstoneblok.png)
-![Hendel](../MineCraftProjects/assets/basic/redstone/hendel.png)
-![Knoppen](../MineCraftProjects/assets/basic/redstone/knoppen.png)
-![drukplaten](../MineCraftProjects/assets/basic/redstone/drukplaten.png)
-![Struikeldraad](../MineCraftProjects/assets/basic/redstone/touwenstruikeldraadhaak.png)
-![vergelijker](../MineCraftProjects/assets/basic/redstone/redstonecomparator.png)
-![sensor](../MineCraftProjects/assets/basic/redstone/sensor.png)
-![detectiespoor](../MineCraftProjects/assets/basic/redstone/detectiespoor.png)
+?c(
+../MineCraftProjects/assets/basic/redstone/redstonetoorts.png,
+../MineCraftProjects/assets/basic/redstone/redstoneblok.png,
+../MineCraftProjects/assets/basic/redstone/hendel.png,
+../MineCraftProjects/assets/basic/redstone/knoppen.png,
+../MineCraftProjects/assets/basic/redstone/drukplaten.png,
+../MineCraftProjects/assets/basic/redstone/touwenstruikeldraadhaak.png,
+../MineCraftProjects/assets/basic/redstone/redstonecomparator.png,
+../MineCraftProjects/assets/basic/redstone/sensor.png,
+../MineCraftProjects/assets/basic/redstone/detectiespoor.png
+)c?
 
 ##Uitgangen
  
 Via redstone stof kunnen we lampen, blokken, zuiger, TNT, een gevoed spoor (powered rail), een wissel kracht geven
 
-![Redstone toorts](../MineCraftProjects/assets/basic/redstone/zuiger.png)
-![Redstone blok](../MineCraftProjects/assets/basic/redstone/lampen.png)
-![Hendel](../MineCraftProjects/assets/basic/redstone/door.png)
-![Knoppen](../MineCraftProjects/assets/basic/redstone/poweredrail.png)
-![drukplaten](../MineCraftProjects/assets/basic/redstone/hopper.png)
+?c(
+../MineCraftProjects/assets/basic/redstone/zuiger.png,
+../MineCraftProjects/assets/basic/redstone/lampen.png,
+../MineCraftProjects/assets/basic/redstone/door.png,
+../MineCraftProjects/assets/basic/redstone/poweredrail.png,
+../MineCraftProjects/assets/basic/redstone/hopper.png
+)c?
+
+
+
+
 
 
