@@ -1,4 +1,7 @@
 # MineCraftProjects
+
+[![Build Status](https://travis-ci.org/CoderDojoBelgiumEeklo/MineCraftProjects.svg?branch=TSSite)](https://travis-ci.org/CoderDojoBelgiumEeklo/MineCraftProjects)
+
 repository voor de minecraft projecten
 
 
