@@ -1,0 +1,32 @@
+<style>
+  .layoutTopGrid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 375px 1fr;
+    grid-template-areas: "I" "T";
+    grid-gap: 5px;
+  }
+
+  .layoutTopImage {
+    grid-area: I;
+  }
+
+  .layoutTopFiller {
+    grid-area: f;
+  }
+
+  .layoutTopText {
+    grid-area: T;
+  }
+</style>
+<section>
+  <div class="layoutLeftGrid">
+    <div class="layoutLeftImage">
+      <pm-carousel [ImageLinks]="partInfo.imagePart"></pm-carousel>
+    </div>
+    <div class="layoutTopFiller">&nbsp;</div>
+    <div class="layoutLeftText">
+      <pre class="cpre">{{partInfo.textPart }}</pre>
+    </div>
+  </div>
+</section>

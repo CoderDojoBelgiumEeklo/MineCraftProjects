@@ -36,9 +36,10 @@ Dit is een carousel met 2 afbeelding.
 ../MineCraftProjects/assets/projects/storage/tangotekv2/TangoTekStorageRoomView.png)c?
 
 ####Syntax:
-Begin met een vraagteken gevolgd door een c. 
+Begin met een vraagteken gevolgd door een c.
 Plaats tussen ronde haakjes alle urls naar afbeeldingen.
 Elke afbeelding moet op een nieuwe lijn staan.
+
 <pre>
 &#63;c(afbeelding1 url,
  afbeelding2 url)c&#63;
@@ -51,26 +52,48 @@ De afbeelding staat aan de rechter of linker kant van de tekst.
 ####Voorbeeld:
 
 ?l[
-Dit is een voorbeeld met een afbeelding aan de linker kant.
+Dit is een voorbeeld met een afbeelding aan de linkerzijde.
 ](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)l?
 
-
 ?r[
-Dit is een voorbeeld met een afbeelding aan de rechter kant.
+Dit is een voorbeeld met een afbeelding aan de rechterzijde.
 ](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)r?
+
+?t[
+Dit is een voorbeeld met een afbeelding aan de bovenzijde.
+](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)t?
+
+?b[
+Dit is een voorbeeld met een afbeelding aan de onderzijde.
+](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)b?
 
 ####Syntax:
 
 syntax voor een links gealigneerde afbeelding.
+
 <pre>
 &#63;l&#8261;
-Dit is een voorbeeld met een afbeelding aan de linker kant.
+Dit is een voorbeeld met een afbeelding aan de linkerzijde.
 ](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)l&#63;
 </pre>
+
 syntax voor een rechts gealigneerde afbeelding.
+
 <pre>
 &#63;r&#8261;
-Dit is een voorbeeld met een afbeelding aan de rechter kant.
+Dit is een voorbeeld met een afbeelding aan de rechterzijde.
+](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)r&#63;
+</pre>
+
+<pre>
+&#63;r&#8261;
+Dit is een voorbeeld met een afbeelding aan de bovenzijde.
+](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)r&#63;
+</pre>
+
+<pre>
+&#63;r&#8261;
+Dit is een voorbeeld met een afbeelding aan de onderzijde.
 ](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)r&#63;
 </pre>
 
@@ -82,6 +105,7 @@ Maak het mogelijk om you tube filmpjes in de site te steken.
 ?v[ https://www.youtube.com/watch?v=npjJPlH6BZQ ]v?
 
 ####Syntax
+
 <pre>
 &#63;v&#8261;
 https://www.youtube.com/watch?v=npjJPlH6BZQ
