@@ -86,13 +86,13 @@ Dit is een voorbeeld met een afbeelding aan de rechterzijde.
 </pre>
 
 <pre>
-&#63;r&#8261;
+&#63;t&#8261;
 Dit is een voorbeeld met een afbeelding aan de bovenzijde.
 ](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)t&#63;
 </pre>
 
 <pre>
-&#63;r&#8261;
+&#63;b&#8261;
 Dit is een voorbeeld met een afbeelding aan de onderzijde.
 ](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)b&#63;
 </pre>
