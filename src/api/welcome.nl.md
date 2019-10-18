@@ -10,8 +10,8 @@ Welkom bij de startpagina van deze site. Aan de rechterkant ziet u de verschille
 Het doel van deze site is om verschillende onderwerpen binnen minecraft te verzamelen voor het gebruik van Dojo's.
 
 #Gebruik van de site.
-Elke afbeelding is annklikbaar. Door een afbeelding aante klikken zal er een pop-up openen die de afbeelding op een groter formaat weergeeft.
-Indien het een reeks aan afbeeldingen (carousel) is kan men door aan de linker of de rechterkant van de afbeelding te klikken naar de volgende afbeelding in de sequentie gaan.
+Elke afbeelding is aanklikbaar. Door een afbeelding aan te klikken zal er een pop-up openen die de afbeelding op een groter formaat weergeeft.
+Indien het een reeks aan afbeeldingen (carousel) is kan men door aan de linker- of de rechterkant van de afbeelding te klikken naar de volgende afbeelding in de sequentie gaan.
 
 ##Aanmaken van markdown bestanden en menu items.
 
@@ -88,13 +88,13 @@ Dit is een voorbeeld met een afbeelding aan de rechterzijde.
 <pre>
 &#63;r&#8261;
 Dit is een voorbeeld met een afbeelding aan de bovenzijde.
-](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)r&#63;
+](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)t&#63;
 </pre>
 
 <pre>
 &#63;r&#8261;
 Dit is een voorbeeld met een afbeelding aan de onderzijde.
-](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)r&#63;
+](../MineCraftProjects/assets/projects/storage/tangotekv3/ModuleReference.png)b&#63;
 </pre>
 
 ###You-tube speler
