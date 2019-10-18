@@ -1,0 +1,1018 @@
+[
+  {
+    "id": 1,
+    "translation": [
+      { "TranslationId": 1, "Value": "Basis" },
+      { "TranslationId": 2, "Value": "Basics" },
+      { "TranslationId": 3, "Value": "base" }
+    ],
+    "submenu": [
+      {
+        "id": 1,
+        "link": "/basic/curse/curseapp",
+        "translation": [
+          { "TranslationId": 1, "Value": "Twitch app" },
+          { "TranslationId": 2, "Value": "Twitch app" },
+          { "TranslationId": 3, "Value": "Twitch app" }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 2,
+        "link": "/basic/cm/commandblock",
+        "translation": [
+          { "TranslationId": 1, "Value": "opdrachtblok" },
+          { "TranslationId": 2, "Value": "Command Block" },
+          { "TranslationId": 3, "Value": "bloc de commande" }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 3,
+        "link": "/basic/redstone/redstonebasic",
+        "translation": [
+          { "TranslationId": 1, "Value": "Redstone" },
+          { "TranslationId": 2, "Value": "Redstone" },
+          { "TranslationId": 3, "Value": "Redstone" }
+        ],
+        "icon": "fa fa-file-text"
+      }
+    ],
+    "icon": "fa fa-folder-open"
+  },
+  {
+    "id": 2,
+    "link": "/basic/redstone/redstonebasic",
+    "translation": [
+      { "TranslationId": 1, "Value": "Redstone" },
+      { "TranslationId": 2, "Value": "Redstone" },
+      { "TranslationId": 3, "Value": "Redstone" }
+    ],
+    "submenu": [
+      {
+        "id": 1,
+        "translation": [
+          { "TranslationId": 1, "Value": "Minecraft redstone" },
+          { "TranslationId": 2, "Value": "Minecraft redstone" },
+          { "TranslationId": 3, "Value": "" }
+        ],
+        "submenu": [
+          {
+            "id": 1,
+            "link": "/basic/redstone/redstonebasic",
+            "translation": [
+              { "TranslationId": 1, "Value": "Redstone" },
+              { "TranslationId": 2, "Value": "Redstone" },
+              { "TranslationId": 3, "Value": "Redstone" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 2,
+            "link": "/basic/redstone/redstonecomponents",
+            "translation": [
+              { "TranslationId": 1, "Value": "Redstone componenten" },
+              { "TranslationId": 2, "Value": "Redstone Components" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 3,
+            "link": "/basic/redstone/comparator",
+            "translation": [
+              { "TranslationId": 1, "Value": "Vergelijker" },
+              { "TranslationId": 2, "Value": "Comparator" },
+              { "TranslationId": 3, "Value": "Comparator" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 4,
+            "link": "/basic/redstone/repeater",
+            "translation": [
+              { "TranslationId": 1, "Value": "Versterker" },
+              { "TranslationId": 2, "Value": "Repeater" },
+              { "TranslationId": 3, "Value": "Repeater" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 5,
+            "link": "/basic/redstone/observer",
+            "translation": [
+              { "TranslationId": 1, "Value": "Observer" },
+              { "TranslationId": 2, "Value": "Observer" },
+              { "TranslationId": 3, "Value": "Observer" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 6,
+            "link": "/basic/redstone/horizontaltransmission",
+            "translation": [
+              { "TranslationId": 1, "Value": "Horizontale overdracht" },
+              { "TranslationId": 2, "Value": "Horizontal transfer" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 7,
+            "link": "/basic/redstone/verticaltransmission",
+            "translation": [
+              { "TranslationId": 1, "Value": "Verticale overdracht" },
+              { "TranslationId": 2, "Value": "Vertical transfer" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 8,
+            "link": "/basic/redstone/Diodetransmission",
+            "translation": [
+              { "TranslationId": 1, "Value": "Diode" },
+              { "TranslationId": 2, "Value": "diode" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "icon": "fa fa-file-text"
+          }
+        ],
+        "icon": "fa fa-folder-open"
+      },
+      {
+        "id": 2,
+        "translation": [
+          { "TranslationId": 1, "Value": "Logica" },
+          { "TranslationId": 2, "Value": "Logic" },
+          { "TranslationId": 3, "Value": "Logique" }
+        ],
+        "submenu": [
+          {
+            "id": 1,
+            "link": "/logic/gates",
+            "translation": [
+              { "TranslationId": 1, "Value": "Poorten" },
+              { "TranslationId": 2, "Value": "Gates" },
+              { "TranslationId": 3, "Value": "porte" }
+            ],
+            "submenu": [
+              {
+                "id": 1,
+                "link": "/logic/gate/and",
+                "translation": [
+                  { "TranslationId": 1, "Value": "EN" },
+                  { "TranslationId": 2, "Value": "AND" },
+                  { "TranslationId": 3, "Value": "AND" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 2,
+                "link": "/logic/gate/or",
+                "translation": [
+                  { "TranslationId": 1, "Value": "OF" },
+                  { "TranslationId": 2, "Value": "OR" },
+                  { "TranslationId": 3, "Value": "OR" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 3,
+                "link": "/logic/gate/not",
+                "translation": [
+                  { "TranslationId": 1, "Value": "NIET" },
+                  { "TranslationId": 2, "Value": "NOT" },
+                  { "TranslationId": 3, "Value": "NOT" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 4,
+                "link": "/logic/gate/xor",
+                "translation": [
+                  { "TranslationId": 1, "Value": "XOF" },
+                  { "TranslationId": 2, "Value": "XOR" },
+                  { "TranslationId": 3, "Value": "XOR" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 5,
+                "link": "/logic/gate/nand",
+                "translation": [
+                  { "TranslationId": 1, "Value": "NAND" },
+                  { "TranslationId": 2, "Value": "NAND" },
+                  { "TranslationId": 3, "Value": "NAND" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 6,
+                "link": "/logic/gate/nor",
+                "translation": [
+                  { "TranslationId": 1, "Value": "NOR" },
+                  { "TranslationId": 2, "Value": "NOR" },
+                  { "TranslationId": 3, "Value": "NOR" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 7,
+                "link": "/logic/gate/xnor",
+                "translation": [
+                  { "TranslationId": 1, "Value": "XNOR" },
+                  { "TranslationId": 2, "Value": "XNOR" },
+                  { "TranslationId": 3, "Value": "XNOR" }
+                ],
+                "icon": "fa fa-file-text"
+              }
+            ],
+            "icon": "fa fa-folder-open"
+          },
+          {
+            "id": 2,
+            "link": "/logic/circuits",
+            "translation": [
+              { "TranslationId": 1, "Value": "Circuits" },
+              { "TranslationId": 2, "Value": "Circuits" },
+              { "TranslationId": 3, "Value": "Circuits" }
+            ],
+            "submenu": [
+              {
+                "id": 1,
+                "link": "/logic/circuit/clock",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Clock" },
+                  { "TranslationId": 2, "Value": "Clock" },
+                  { "TranslationId": 3, "Value": "Clock" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 2,
+                "link": "/logic/circuit/rs",
+                "translation": [
+                  { "TranslationId": 1, "Value": "RS (nor latch)" },
+                  { "TranslationId": 2, "Value": "RS (nor latch)" },
+                  { "TranslationId": 3, "Value": "RS (nor latch)" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 3,
+                "link": "/logic/circuit/msc",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Monostable circuit" },
+                  { "TranslationId": 2, "Value": "Monostable circuit" },
+                  { "TranslationId": 3, "Value": "Monostable circuit" }
+                ],
+                "submenu": [
+                  {
+                    "id": 1,
+                    "link": "/logic/circuit/tff",
+                    "translation": [
+                      { "TranslationId": 1, "Value": "T-flip flop" },
+                      { "TranslationId": 2, "Value": "T-flip flop" },
+                      { "TranslationId": 3, "Value": "T-flip flop" }
+                    ],
+                    "icon": "fa fa-file-text"
+                  },
+                  {
+                    "id": 2,
+                    "link": "/logic/circuit/dff",
+                    "translation": [
+                      { "TranslationId": 1, "Value": "D-flip-flop" },
+                      { "TranslationId": 2, "Value": "D-flip-flop" },
+                      { "TranslationId": 3, "Value": "D-flip-flop" }
+                    ],
+                    "icon": "fa fa-file-text"
+                  }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 4,
+                "link": "/logic/circuit/pulselimit",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Pulse limiter" },
+                  { "TranslationId": 2, "Value": "Pulse limiter" },
+                  { "TranslationId": 3, "Value": "Pulse limiter" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 5,
+                "link": "/logic/circuit/pulseext",
+                "translation": [
+                  { "TranslationId": 1, "Value": "pulse extender" },
+                  { "TranslationId": 2, "Value": "pulse extender" },
+                  { "TranslationId": 3, "Value": "pulse extender" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 6,
+                "link": "/logic/circuit/fedet",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Falling Edge detector" },
+                  { "TranslationId": 2, "Value": "Falling Edge detector" },
+                  { "TranslationId": 3, "Value": "Falling Edge detector" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 7,
+                "link": "/logic/circuit/redet",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Rising Edge detector" },
+                  { "TranslationId": 2, "Value": "Rising Edge detector" },
+                  { "TranslationId": 3, "Value": "Rising Edge detector" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 8,
+                "link": "/logic/circuit/edet",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Edge detector" },
+                  { "TranslationId": 2, "Value": "Edge detector" },
+                  { "TranslationId": 3, "Value": "Edge detector" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 9,
+                "link": "/logic/circuit/abba",
+                "translation": [
+                  { "TranslationId": 1, "Value": "ABBA Switch" },
+                  { "TranslationId": 2, "Value": "ABBA Switch" },
+                  { "TranslationId": 3, "Value": "ABBA Switch" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 10,
+                "link": "/logic/circuit/bud",
+                "translation": [
+                  { "TranslationId": 1, "Value": "BUD switch" },
+                  { "TranslationId": 2, "Value": "BUD switch" },
+                  { "TranslationId": 3, "Value": "BUD switch" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 11,
+                "link": "/logic/circuit/counter",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Counter" },
+                  { "TranslationId": 2, "Value": "Counter" },
+                  { "TranslationId": 3, "Value": "Counter" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 12,
+                "link": "/logic/circuit/shiftreg",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Shift register" },
+                  { "TranslationId": 2, "Value": "Shift register" },
+                  { "TranslationId": 3, "Value": "Shift register" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 13,
+                "link": "/logic/circuit/dpe",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Double Piston extender" },
+                  { "TranslationId": 2, "Value": "Double Piston extender" },
+                  { "TranslationId": 3, "Value": "Double Piston extender" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 14,
+                "link": "/logic/circuit/ld",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Last detector" },
+                  { "TranslationId": 2, "Value": "Last detector" },
+                  { "TranslationId": 3, "Value": "Last detector" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 15,
+                "link": "/logic/circuit/fd",
+                "translation": [
+                  { "TranslationId": 1, "Value": "First detector" },
+                  { "TranslationId": 2, "Value": "First detector" },
+                  { "TranslationId": 3, "Value": "First detector" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 16,
+                "link": "/logic/circuit/random",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Randomizer" },
+                  { "TranslationId": 2, "Value": "Randomizer" },
+                  { "TranslationId": 3, "Value": "Randomizer" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 17,
+                "link": "/logic/circuit/instantwire",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Instant wire" },
+                  { "TranslationId": 2, "Value": "Instant wire" },
+                  { "TranslationId": 3, "Value": "Instant wire" }
+                ],
+                "icon": "fa fa-file-text"
+              }
+            ],
+            "icon": "fa fa-folder-open"
+          },
+          {
+            "id": 3,
+            "link": "/logic/transmission",
+            "translation": [
+              { "TranslationId": 1, "Value": "Overbreng circuits" },
+              { "TranslationId": 2, "Value": "Transmission circuit" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "submenu": [
+              {
+                "id": 1,
+                "link": "/logic/transmission/Horizontal",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Horizontaal" },
+                  { "TranslationId": 2, "Value": "Horizontal" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 2,
+                "link": "/logic/transmission/Vertical",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Verticaal" },
+                  { "TranslationId": 2, "Value": "vertical" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 3,
+                "link": "/logic/transmission/Repeater",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Herhaler" },
+                  { "TranslationId": 2, "Value": "Repeater" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 4,
+                "link": "/logic/transmission/Diode",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Diode" },
+                  { "TranslationId": 2, "Value": "Diode" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              }
+            ],
+            "icon": "fa fa-folder-open"
+          },
+          {
+            "id": 4,
+            "link": "/logic/doors/pistondoors",
+            "translation": [
+              { "TranslationId": 1, "Value": "Piston door" },
+              { "TranslationId": 2, "Value": "Piston door" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "submenu": [
+              {
+                "id": 1,
+                "link": "/logic/doors/pistondoor1",
+                "translation": [
+                  { "TranslationId": 1, "Value": "1*2" },
+                  { "TranslationId": 2, "Value": "" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 2,
+                "link": "/logic/doors/pistondoor2",
+                "translation": [
+                  { "TranslationId": 1, "Value": "2*2" },
+                  { "TranslationId": 2, "Value": "" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 3,
+                "link": "/logic/doors/pistondoor3",
+                "translation": [
+                  { "TranslationId": 1, "Value": "2*2" },
+                  { "TranslationId": 2, "Value": "" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 4,
+                "link": "/logic/doors/pistondoor4",
+                "translation": [
+                  { "TranslationId": 1, "Value": "3*3 spiral door" },
+                  { "TranslationId": 2, "Value": "" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 5,
+                "link": "/logic/doors/pistondoor5",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Button operated door" },
+                  { "TranslationId": 2, "Value": "" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 6,
+                "link": "/logic/doors/pistondoor6",
+                "translation": [
+                  { "TranslationId": 1, "Value": "2*2 hipster" },
+                  { "TranslationId": 2, "Value": "" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 7,
+                "link": "/logic/doors/pistondoor7",
+                "translation": [
+                  { "TranslationId": 1, "Value": "4*4 lava blade" },
+                  { "TranslationId": 2, "Value": "" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 8,
+                "link": "/logic/doors/pistondoor8",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Laser door" },
+                  { "TranslationId": 2, "Value": "" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 9,
+                "link": "/logic/doors/pistondoor9",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Fence door" },
+                  { "TranslationId": 2, "Value": "" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 10,
+                "link": "/logic/doors/pistondoor10",
+                "translation": [
+                  { "TranslationId": 1, "Value": "4*4 vault door" },
+                  { "TranslationId": 2, "Value": "" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              },
+              {
+                "id": 11,
+                "link": "/logic/doors/pistondoor10",
+                "translation": [
+                  { "TranslationId": 1, "Value": "Mumbo door" },
+                  { "TranslationId": 2, "Value": "" },
+                  { "TranslationId": 3, "Value": "" }
+                ],
+                "icon": "fa fa-file-text"
+              }
+            ],
+            "icon": "fa fa-folder-open"
+          }
+        ],
+        "icon": "fa fa-folder-open"
+      },
+      {
+        "id": 3,
+        "translation": [
+          { "TranslationId": 1, "Value": "Oefeningen" },
+          { "TranslationId": 2, "Value": "exercises" },
+          { "TranslationId": 3, "Value": "Pratique" }
+        ],
+        "submenu": [
+          {
+            "id": 1,
+            "link": "/exc/redstone/redstoneeasy",
+            "translation": [
+              { "TranslationId": 1, "Value": "Set 1" },
+              { "TranslationId": 2, "Value": "Set 1" },
+              { "TranslationId": 3, "Value": "Facile" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 2,
+            "link": "/exc/redstone/redstonemedium",
+            "translation": [
+              { "TranslationId": 1, "Value": "Set 2" },
+              { "TranslationId": 2, "Value": "Set 2" },
+              { "TranslationId": 3, "Value": "Moyen" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 3,
+            "link": "/exc/redstone/redstonehard",
+            "translation": [
+              { "TranslationId": 1, "Value": "Set 3" },
+              { "TranslationId": 2, "Value": "Set 3" },
+              { "TranslationId": 3, "Value": "Dificile" }
+            ],
+            "icon": "fa fa-file-text"
+          }
+        ],
+        "icon": "fa fa-folder-open"
+      }
+    ],
+    "icon": "fa fa-folder-open"
+  },
+  {
+    "id": 4,
+    "translation": [
+      { "TranslationId": 1, "Value": "Mini spel" },
+      { "TranslationId": 2, "Value": "Minigame" },
+      { "TranslationId": 3, "Value": "mini jeu" }
+    ],
+    "submenu": [
+      {
+        "id": 1,
+        "link": "/minigame/defuse/defuse",
+        "translation": [
+          { "TranslationId": 1, "Value": "Ontmantel de bom" },
+          { "TranslationId": 2, "Value": "Dismantle the bomb" },
+          { "TranslationId": 3, "Value": "D�samorcer la bombe" }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 2,
+        "link": "/minigame/zombierun/zombierun",
+        "translation": [
+          { "TranslationId": 1, "Value": "Zombie run" },
+          { "TranslationId": 2, "Value": "Zombie run" },
+          { "TranslationId": 3, "Value": "Zombie run" }
+        ],
+        "icon": "fa fa-file-text"
+      }
+    ],
+    "icon": "fa fa-folder-open"
+  },
+  {
+    "id": 5,
+    "translation": [
+      { "TranslationId": 1, "Value": "Projecten" },
+      { "TranslationId": 2, "Value": "Projects" },
+      { "TranslationId": 3, "Value": "projets" }
+    ],
+    "submenu": [
+      {
+        "id": 1,
+        "link": "/projects/mobfarm/mobfarm",
+        "translation": [
+          { "TranslationId": 1, "Value": "mob farm" },
+          { "TranslationId": 2, "Value": "mob farm" },
+          { "TranslationId": 3, "Value": "mob farm" }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 2,
+        "link": "/projects/afkfishing/afkfishing",
+        "translation": [
+          { "TranslationId": 1, "Value": "AFK fish farm" },
+          { "TranslationId": 2, "Value": "AFK fish farm" },
+          { "TranslationId": 3, "Value": "AFK fish farm" }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 3,
+        "link": "/projects/equipmentkit/equipmentkit",
+        "translation": [
+          { "TranslationId": 1, "Value": "Equipment kit" },
+          { "TranslationId": 2, "Value": "Equipment kit" },
+          { "TranslationId": 3, "Value": "Equipment kit" }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 4,
+        "link": "/projects/expfarm/expfarm",
+        "translation": [
+          { "TranslationId": 1, "Value": "exp farm (1,13)" },
+          { "TranslationId": 2, "Value": "exp farm (1,13)" },
+          { "TranslationId": 3, "Value": "exp farm (1,13)" }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 6,
+        "link": "/projects/tag/tag",
+        "translation": [
+          { "TranslationId": 1, "Value": "Tikkertje" },
+          { "TranslationId": 2, "Value": "Tag" },
+          { "TranslationId": 3, "Value": "Tag" }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 7,
+        "link": "/projects/supersmelter/supersmelter",
+        "translation": [
+          { "TranslationId": 1, "Value": "Super smelter" },
+          { "TranslationId": 2, "Value": "Super smelter" },
+          { "TranslationId": 3, "Value": "Super smelter" }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 8,
+        "link": "/projects/farms/farms",
+        "translation": [
+          { "TranslationId": 1, "Value": "Boerderijen" },
+          { "TranslationId": 2, "Value": "Farms" },
+          { "TranslationId": 3, "Value": "Farms" }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 9,
+        "link": "/projects/storage/storage",
+        "translation": [
+          { "TranslationId": 1, "Value": "Opslag Systemen" },
+          { "TranslationId": 2, "Value": "Storage Systems" },
+          { "TranslationId": 3, "Value": "" }
+        ],
+        "submenu": [
+          {
+            "id": 1,
+            "link": "/projects/storage/ttv2",
+            "translation": [
+              { "TranslationId": 1, "Value": "Tango Tek V2" },
+              { "TranslationId": 2, "Value": "Tango Tek V2" },
+              { "TranslationId": 3, "Value": "Tango Tek V2" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 2,
+            "link": "/projects/storage/ttv3",
+            "translation": [
+              { "TranslationId": 1, "Value": "Tango Tek V3 (Powasaurus.Rex)" },
+              { "TranslationId": 2, "Value": "Tango Tek V3 (Powasaurus.Rex)" },
+              { "TranslationId": 3, "Value": "Tango Tek V3 (Powasaurus.Rex)" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 3,
+            "link": "/projects/storage/genmbon",
+            "translation": [
+              { "TranslationId": 1, "Value": "Gnembon" },
+              { "TranslationId": 2, "Value": "Gnembon" },
+              { "TranslationId": 3, "Value": "Gnembon" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 4,
+            "link": "/projects/storage/sethbling",
+            "translation": [
+              { "TranslationId": 1, "Value": "Seth Bling" },
+              { "TranslationId": 2, "Value": "Seth Bling" },
+              { "TranslationId": 3, "Value": "Seth Bling" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 5,
+            "link": "/projects/storage/shulkerLoaderIlMango",
+            "translation": [
+              { "TranslationId": 1, "Value": "Shulker System" },
+              { "TranslationId": 2, "Value": "Shulker System" },
+              { "TranslationId": 3, "Value": "Shulker System" }
+            ],
+            "icon": "fa fa-file-text"
+          }
+        ],
+        "icon": "fa fa-folder-open"
+      }
+    ],
+    "icon": "fa fa-folder-open"
+  },
+  {
+    "id": 6,
+    "translation": [
+      { "TranslationId": 1, "Value": "Datapacks" },
+      { "TranslationId": 2, "Value": "Datapacks" },
+      { "TranslationId": 3, "Value": "Datapacks" }
+    ],
+    "submenu": [
+      {
+        "id": 1,
+        "link": "/datapack/ datapack",
+        "translation": [
+          { "TranslationId": 1, "Value": "Datapack" },
+          { "TranslationId": 2, "Value": "Datapack" },
+          { "TranslationId": 3, "Value": "Datapack" }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 2,
+        "translation": [
+          { "TranslationId": 1, "Value": "Editors" },
+          { "TranslationId": 2, "Value": "Editors" },
+          { "TranslationId": 3, "Value": "Editors" }
+        ],
+        "submenu": [
+          {
+            "id": 1,
+            "link": "/datapack/editor/notepad",
+            "translation": [
+              { "TranslationId": 1, "Value": "Notepad++" },
+              { "TranslationId": 2, "Value": "Notepad++" },
+              { "TranslationId": 3, "Value": "Notepad++" }
+            ],
+            "icon": "fa fa-file-text"
+          }
+        ],
+        "icon": "fa fa-folder-open"
+      },
+      {
+        "id": 3,
+        "translation": [
+          { "TranslationId": 1, "Value": "Data pack basis" },
+          { "TranslationId": 2, "Value": "Data pack basics" },
+          { "TranslationId": 3, "Value": "Data pack basics" }
+        ],
+        "submenu": [
+          {
+            "id": 1,
+            "link": "/datapack/concepts/directorystructure",
+            "translation": [
+              { "TranslationId": 1, "Value": "Folder structuur" },
+              { "TranslationId": 2, "Value": "Directory structure" },
+              { "TranslationId": 3, "Value": "Directory structure" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 2,
+            "link": "/datapack/concepts/metafile",
+            "translation": [
+              { "TranslationId": 1, "Value": "" },
+              { "TranslationId": 2, "Value": "" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "icon": "fa fa-file-text"
+          }
+        ],
+        "icon": "fa fa-folder-open"
+      }
+    ],
+    "icon": "fa fa-folder-open"
+  },
+  {
+    "id": 7,
+    "translation": [
+      { "TranslationId": 1, "Value": "Java Modding" },
+      { "TranslationId": 2, "Value": "Java Modding" },
+      { "TranslationId": 3, "Value": "Java Modding" }
+    ],
+    "submenu": [
+      {
+        "id": 1,
+        "link": "/modding/mcreator/info",
+        "translation": [
+          { "TranslationId": 1, "Value": "mcreator" },
+          { "TranslationId": 2, "Value": "mcreator" },
+          { "TranslationId": 3, "Value": "mcreator" }
+        ],
+        "submenu": [
+          {
+            "id": 1,
+            "link": "/modding/mcreator/install",
+            "translation": [
+              { "TranslationId": 1, "Value": "Installatie" },
+              { "TranslationId": 2, "Value": "installing" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 2,
+            "link": "/modding/mcreator/overview",
+            "translation": [
+              { "TranslationId": 1, "Value": "Overzicht" },
+              { "TranslationId": 2, "Value": "overview" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 3,
+            "link": "/modding/mcreator/firstItem",
+            "translation": [
+              { "TranslationId": 1, "Value": "Ons eerste item" },
+              { "TranslationId": 2, "Value": "Our first items" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 4,
+            "link": "/modding/mcreator/firstblock",
+            "translation": [
+              { "TranslationId": 1, "Value": "Ons eerste blok" },
+              { "TranslationId": 2, "Value": "Our first block" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 5,
+            "link": "/modding/mcreator/tools",
+            "translation": [
+              { "TranslationId": 1, "Value": "Gereedschappen" },
+              { "TranslationId": 2, "Value": "Tools" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 6,
+            "link": "/modding/mcreator/worldgen",
+            "translation": [
+              { "TranslationId": 1, "Value": "" },
+              { "TranslationId": 2, "Value": "" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "icon": "fa fa-file-text"
+          },
+          {
+            "id": 7,
+            "link": "/modding/mcreator/entities",
+            "translation": [
+              { "TranslationId": 1, "Value": "" },
+              { "TranslationId": 2, "Value": "" },
+              { "TranslationId": 3, "Value": "" }
+            ],
+            "icon": "fa fa-file-text"
+          }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 2,
+        "link": "/modding/forge/info",
+        "translation": [
+          { "TranslationId": 1, "Value": "" },
+          { "TranslationId": 2, "Value": "" },
+          { "TranslationId": 3, "Value": "" }
+        ],
+        "icon": "fa fa-file-text"
+      },
+      {
+        "id": 3,
+        "link": "/modding/fabric/info",
+        "translation": [
+          { "TranslationId": 1, "Value": "" },
+          { "TranslationId": 2, "Value": "" },
+          { "TranslationId": 3, "Value": "" }
+        ],
+        "icon": "fa fa-file-text"
+      }
+    ],
+    "icon": "fa fa-folder-open"
+  }
+]
